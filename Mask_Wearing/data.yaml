@@ -1,0 +1,13 @@
+train: ../Mask_Wearing/train/images
+val: ../Mask_Wearing/valid/images
+test: ../Mask_Wearing/test/images
+
+nc: 2
+names: ['Mask', 'NO-Mask']
+
+roboflow:
+  workspace: roboflow-universe-projects
+  project: mask-wearing-iskms
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/roboflow-universe-projects/mask-wearing-iskms/dataset/6

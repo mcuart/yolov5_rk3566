@@ -1,0 +1,2486 @@
+[33md6906868[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m 增加自定义数据集
+[33md25a0753[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m rk opt for yolov5 base@rk_85c6d7d2
+[33m915bbf29[m[33m ([m[1;33mtag: v7.0[m[33m)[m YOLOv5 v7.0 release updates (#10245)
+[33mbe348cc3[m Validate --task speed CPU fix (#10244)
+[33m72cad398[m Squeezenet reshape outputs fix (#10222)
+[33m40bb8030[m Scope gitpyhon import in `check_git_info()` (#10221)
+[33m6992dde4[m Update Comet preview image (#10220)
+[33m0307954e[m Add git info to cls, seg checkpoints (#10217)
+[33m9286336c[m Add `git` info to training checkpoints (#9655)
+[33m9bc60349[m Add `--source screen` Usage example (#10215)
+[33m9bf18554[m Revert `--save-txt` to default False (#10213)
+[33m23f43ce0[m Created using Colaboratory
+[33m7fc7ed77[m Created using Colaboratory
+[33m2ecaa96c[m Created using Colaboratory
+[33m00516151[m Remove Colab notebook High-Memory notices (#10212)
+[33m6f377f9d[m Feature/classification tutorial refactor (#10039)
+[33m0322bb31[m New global `TQDM_BAR_FORMAT` (#10211)
+[33m74b3886e[m Simplify dataloader tqdm descriptions (#10210)
+[33m946765bb[m Created using Colaboratory
+[33m241d798b[m Created using Colaboratory
+[33m467a57f0[m Segment prediction labels normalization fix (#10205)
+[33mff6e6e32[m Fix: try 2 - prevent logging config clobbering (#10192)
+[33m1510111b[m data.yaml `names.keys()` integer assert (#10190)
+[33ma9f895d3[m Apply make_divisible for ONNX models in Autoshape (#10172)
+[33me40662ff[m Revert "fix: prevent logging config clobbering" (#10177)
+[33m90575107[m Filter PyTorch 1.13  UserWarnings (#10166)
+[33m166b9f2f[m fix: prevent logging config clobbering (#10133)
+[33m5e03f5fc[m Fix dataloader filepath modification to perform replace only once and not for all occurences of string (#10163)
+[33m9dd40f07[m Add `join_threads()` (#10086)
+[33mea73386e[m Add Copy-Paste to `mosaic9()` (#10165)
+[33mabbfd695[m Copy-Paste zero value fix (#10152)
+[33mf33718f3[m Update HUB banner image (#10134)
+[33m7c3827a2[m Fix benchmark.py usage comment (#10131)
+[33m55e95168[m Add Ultralytics HUB to README (#10070)
+[33m078059c5[m Update IoU functions (#10123)
+[33m75728bb3[m Mapped project and name to ClearML (#10100)
+[33mc1fcfe8c[m YouTube Usage example comments (#10106)
+[33m892c4cd4[m AutoShape integer image-size fix (#10090)
+[33m86decb3c[m Add `ultralytics` pip package (#10103)
+[33m0039870b[m Update Dockerfile keep default torch installation (#10071)
+[33me00d02d7[m Use MNIST160 (#10069)
+[33m58b3d078[m [pre-commit.ci] pre-commit suggestions (#10068)
+[33m6ae3dff7[m Update get_coco.sh (#10057)
+[33m78ed31c9[m IoU `eps` adjustment (#10051)
+[33mfde77584[m YOLOv5 AutoCache Update (#10027)
+[33m02b8a4c2[m Update default `--epochs 100` (#10024)
+[33m82a55855[m Fix `min_items` (#10001)
+[33m067ad9a2[m Improved `check_online()` robustness (#10000)
+[33mc55e2cd7[m Add `min_items` filter option (#9997)
+[33mcf997888[m Check online twice on AutoUpdate (#9999)
+[33m49156eb1[m Fix `is_colab()` (#9994)
+[33ma83d2a50[m Segmentation Tutorial (#9521)
+[33me704970f[m Update README.md (#9970)
+[33ma625f299[m Full-size proto code (optional) (#9980)
+[33m6e544d5f[m FROM nvcr.io/nvidia/pytorch:22.10-py3 (#9966)
+[33m575055ce[m Switch from suffix checks to archive checks (#9963)
+[33m6db0fac6[m Update README.md (#9961)
+[33mbe9ef387[m Update README.md (#9958)
+[33m38e5aae9[m Update README.md (#9957)
+[33m32a92185[m Update Comet Integrations table text (#9937)
+[33mf9bb984e[m Add ClearML minimum version requirement (#9933)
+[33ma5d875ad[m Add `gnupg` to Dockerfile-cpu (#9932)
+[33m8236d881[m Created using Colaboratory
+[33m54f49fa5[m Add TFLite Metadata to TFLite and Edge TPU models (#9903)
+[33mfba61e55[m Windows Python 3.7 .isfile() fix (#9879)
+[33meef90572[m ClearML Dockerfile fix (#9876)
+[33m3b1a9d22[m Fix OpenVINO Usage example (#9874)
+[33m6371de88[m Webcam show fix (#9847)
+[33mc4710012[m Update README.md (#9846)
+[33md0df6c84[m Update ZipFile to context manager (#9843)
+[33m010cd0db[m Update HUBDatasetStats() usage examples (#9842)
+[33mf1482b06[m Remove ipython from `check_requirements` exclude list (#9841)
+[33macff977a[m Logger Cleanup (#9828)
+[33me3ff7806[m Allow PyTorch Hub results to display in notebooks (#9825)
+[33me42c89d4[m `smart_optimizer()` revert to weight with decay (#9817)
+[33mdf80e7c7[m Argoverse HUB fix (#9809)
+[33m2a19d070[m Fix xView dataloaders import (#9807)
+[33m15b75659[m Update hubconf.py local repo Usage example (#9803)
+[33m16f87bb3[m HUB VOC fix (#9792)
+[33m85ae985b[m update mask2segments and saving results (#9785)
+[33m7a69035e[m Update Loggers (#9760)
+[33m2f1eb21a[m Remove #YOLOVISION22 notice (#9751)
+[33m209be932[m Fix segment evolution keys (#9742)
+[33m5ef69ef3[m Error in utils/segment/general `masks2segments()` (#9724)
+[33m7f097ddb[m FROM nvcr.io/nvidia/pytorch:22.09-py3 (#9711)
+[33me4398cf1[m TensorRT `--dynamic` fix (#9691)
+[33m68d654d8[m [pre-commit.ci] pre-commit suggestions (#9685)
+[33mc98128fe[m Allow list for Comet artifact class 'names' field (#9654)
+[33m1158a50a[m Simplify val.py benchmark mode with speed mode (#9674)
+[33m8a194376[m Added cutout import from utils/augmentations.py to use Cutout Aug in … (#9668)
+[33m82bec4c8[m Add NVIDIA Jetson Nano Deployment tutorial (#9656)
+[33m0860e585[m Disabled upload_dataset flag temporarily due to an artifact related bug (#9652)
+[33m799e3d0c[m Add SegmentationModel unsupported warning (#9632)
+[33m2373d547[m NMS MPS device wrapper (#9620)
+[33m7314363f[m Add `results.save(save_dir='path', exist_ok=False)` (#9617)
+[33m1460e571[m Fix `is_url('https://ultralytics.com')` (#9610)
+[33m6b2c9d1d[m Update export.py Usage examples (#9609)
+[33ma5748e4b[m Updated Segmentation and Classification usage (#9607)
+[33mc4c0ee8f[m Apple MPS -> CPU NMS fallback strategy (#9600)
+[33mbd9c0c42[m #YOLOVISION22 update (#9598)
+[33mbfe052b8[m Bump actions/stale from 5 to 6 (#9595)
+[33m959a4665[m #YOLOVISION22 announcement (#9590)
+[33m9f1cf8dd[m Add Paperspace Gradient badges (#9588)
+[33m9006b414[m Add global YOLOv5_DATASETS_DIR (#9586)
+[33m639d82fb[m Update Comet links (#9587)
+[33m966b0e09[m TensorRT detect.py inference fix (#9581)
+[33m2787ad70[m Add segment line predictions (#9571)
+[33mee91dc9b[m Update requirements.txt comment https://pytorch.org/get-started/locally/ (#9576)
+[33m55fbac93[m Update default GitHub assets (#9573)
+[33mf11a8a62[m generator seed fix for DDP mAP drop (#9545)
+[33mc8e52304[m New `scale_segments()` function (#9570)
+[33md669a746[m Detect.py supports running against a Triton container (#9228)
+[33m1320ce18[m Update `is_url()` (#9566)
+[33m30fa9b61[m Add `--source screen` for screenshot inference (#9542)
+[33mb25d5a75[m Refactor dataset batch-size (#9551)
+[33m489920ab[m TF.js fix (#9536)
+[33m999482b4[m import re (#9535)
+[33m6f028476[m Update albumentations (#9503)
+[33mdb684743[m Update `coremltools>=6.0` (#9532)
+[33m499a6bf5[m Update scikit-learn constraint per coremltools 6.0 (#9531)
+[33m6ebef288[m Remove scikit-learn constraint on coremltools 6.0 (#9530)
+[33m77dcf551[m FROM nvcr.io/nvidia/pytorch:22.08-py3 (#9520)
+[33mc0d97138[m TFLite fix 2 (#9518)
+[33mbd351910[m Fix TF Lite exports (#9517)
+[33me233c038[m Remove `check_requirements('flatbuffers==1.12')` (#9514)
+[33mf8b74631[m Fix `random_perspective` param bug in segment (#9512)
+[33m095f601d[m Segmentation `polygons2masks_overlap()` in `np.int32` (#9493)
+[33m63368e71[m Add paddle tips (#9502)
+[33m0171198f[m Fix visualization title bug (#9500)
+[33m0b724c5b[m Comet Image Logging Fix (#9498)
+[33m11640698[m Accelerate video inference (#9487)
+[33m868c0e9b[m Update Detect() grid init `for` loop (#9494)
+[33mf038ad71[m AutoBatch report include reserved+allocated (#9491)
+[33mfda8aa55[m TensorFlow SegmentationModel support (#9472)
+[33m120e27e3[m `classify/predict --save-txt` fix (#9478)
+[33m92b52424[m TensorFlow macOS AutoUpdate (#9471)
+[33mca9c993d[m Standardize warnings with `WARNING  ⚠️ ...` (#9467)
+[33m295c5e9d[m Update ClassificationModel default training `imgsz=224` (#9469)
+[33m4d50cd34[m `Conv()` dilation argument fix (#9466)
+[33mdc42e6ef[m TensorRT SegmentationModel fix (#9465)
+[33m95cef1ae[m Optimize imports (#9464)
+[33m8ae81a6c[m Fix cutout bug (#9452)
+[33me8a9c5ae[m Add `macos-latest` runner for CoreML benchmarks (#9453)
+[33mafb98605[m Add Paddle exports to benchmarks (#9459)
+[33m06083740[m `Detect()` and `Segment()` fixes for CoreML and Paddle (#9458)
+[33m6a9fffd1[m Update general.py (#9454)
+[33m4a430800[m Do not move downloaded zips (#9455)
+[33m5e1a9553[m AutoBatch `cudnn.benchmark=True` fix (#9448)
+[33mdb06f495[m AutoUpdate TensorFlow in export.py (#9447)
+[33mfe10b4ab[m Update Detections() instance printing (#9445)
+[33m2ac4b634[m AutoShape explicit arguments fix (#9443)
+[33m03f2ca8e[m Fix TensorRT exports to ONNX opset 12 (#9441)
+[33mc7a2d6bc[m Fix tick labels for background FN/FP (#9414)
+[33ma1e5f9a9[m New model.yaml `activation:` field (#9371)
+[33m58ad5ca5[m Fix val.py zero-TP bug (#9431)
+[33mf9869f7f[m YOLOv5 segmentation model support (#9052)
+[33mabea53ea[m Continue on Docker fail (all backends) fix (#9433)
+[33m65afaa78[m Continue on Docker failure (all backends) (#9432)
+[33m36cb05b7[m Continue on Docker arm64 failure (#9430)
+[33m1323b480[m Remove `.train()` mode exports (#9429)
+[33ma4ed9888[m Remove duplicate line in setup.cfg (#9380)
+[33m23701eac[m AMP Check fix (#9367)
+[33m23d0456b[m `torch.jit.trace()` fix (#9363)
+[33mcafdd189[m Exclude `ipython` from hubconf.py `check_requirements()` (#9362)
+[33m2b5c9a83[m labels.jpg names fix (#9361)
+[33m4e8504ab[m PaddlePaddle Usage examples (#9358)
+[33me3e5122f[m Add PaddlePaddle export and inference (#9240)
+[33m57ef676a[m Update `check_requirements()` multiple string (#9356)
+[33me9ddc5b5[m Update `check_requirements(args, cmds='')` (#9355)
+[33m24bf9cce[m Update `check_requirements()` single install (#9353)
+[33m8aa196ce[m Add dilated conv support (#9347)
+[33m3cd66b1c[m Train.py line 486 typo fix (#9330)
+[33m5f075eed[m Comet changes (#9328)
+[33m903b239f[m Comet Logging and Visualization Integration (#9232)
+[33m5a134e06[m Replace deprecated `np.int` with `int` (#9307)
+[33m32794c13[m [pre-commit.ci] pre-commit suggestions (#9295)
+[33m1aea74cd[m Add new `--vid-stride` inference parameter for videos (#9256)
+[33me45d335b[m Update benchmarks CI with `--hard-fail` min metric floor (#9276)
+[33m7aa263c5[m Update DetectMultiBackend for tuple outputs 2 (#9275)
+[33m96c3c7f7[m Update DetectMultiBackend for tuple outputs (#9274)
+[33m63ecce60[m DetectMultiBackend improvements (#9269)
+[33m5cb9fe61[m Make sure best.pt model file is preserved ClearML (#9265)
+[33m15e82d29[m Update `TryExcept(msg='...')`` (#9261)
+[33m5d4787ba[m `cudnn.benchmark = True` on Seed 0 (#9259)
+[33mffdb58b0[m Move `cudnn.benchmarks(True)` to LoadStreams (#9258)
+[33m9da6d0f9[m Add LoadImages._cv2_rotate() (#9249)
+[33mea981990[m Update general.py (#9252)
+[33m2d082a07[m Refactor Loggers : Move code outside train.py (#9241)
+[33mc91d1db7[m Update dataloaders.py (#9250)
+[33m223c59db[m Add `url_getsize()` function (#9247)
+[33m55b00961[m Python check warning emoji (#9238)
+[33m79e181a8[m Add support for *`.pfm` images  (#9230)
+[33m5f1000a4[m Remove usage of `pathlib.Path.unlink(missing_ok=...)` (#9227)
+[33m4a37381e[m Add ClassificationModel TF export assert (#9226)
+[33m6e7a7ae7[m New `LetterBox(size)` `CenterCrop(size)`, `ToTensor()` transforms (#9213)
+[33m5fb267f3[m Duplicate segment verification fix (#9225)
+[33mf37ac8d6[m Delete rebase.yml (#9202)
+[33m91a81d48[m Default AutoBatch 0.8 fraction (#9212)
+[33m3c64d891[m AutoBatch protect from extreme batch sizes (#9209)
+[33mda22e01a[m `check_font()` fstring update (#9208)
+[33mbd5fd784[m Comment `protobuf` in requirements.txt (#9207)
+[33mfef1913d[m `check_font()` on notebook init (#9200)
+[33mf65081c4[m Add `check_git_status(..., branch='master')` argument (#9199)
+[33mcf5d9cbc[m ClearML's set_report_period's time is defined in minutes not seconds. (#9186)
+[33me57275a2[m Skip AMP check on MPS (#9189)
+[33m13530402[m Fix AutoAnchor MPS bug (#9188)
+[33m53711bac[m Update Dockerfile-arm64 to libpython3-dev (#9187)
+[33m985e000d[m Update Dockerfile-cpu to libpython3-dev (#9185)
+[33mf58fe6b6[m Update Dockerfile-cpu (#9184)
+[33mffbce385[m Fix confidence threshold for ClearML debug images (#9174)
+[33mcff9717d[m Comment EMA assert (#9173)
+[33m5d3d051c[m Inline `_make_grid()` meshgrid (#9170)
+[33m85d7ae21[m Rename onnx_dynamic -> dynamic (#9168)
+[33mf2b8f3fe[m Created using Colaboratory
+[33m30e674b1[m New YOLOv5 v6.2 splash images (#9142)
+[33m729dc169[m Fixed Classify offsets (#9155)
+[33md07ddc69[m New TryExcept decorator (#9154)
+[33mf0e5a608[m Add CSV logging to GenericLogger (#9128)
+[33mf8816f58[m Infer Loggers project name  (#9117)
+[33me6f54c5b[m Fix numpy to torch cls streaming bug (#9112)
+[33m51c9f922[m Streaming Classification support (#9106)
+[33m48e56d3c[m Add optional `transforms` argument to LoadStreams() (#9105)
+[33md0fa0042[m New `@try_export` decorator (#9096)
+[33meab35f66[m Install `torch` latest stable (#9092)
+[33m06831aa9[m Improved Usage example docstrings (#9075)
+[33m0abae780[m Remove unused Timeout import (#9073)
+[33m262187e9[m Two dimensional `size=(h,w)` AutoShape support (#9072)
+[33mdb2ee5fa[m De-thread TensorBoard graph logging (#9071)
+[33m5373a28c[m Created using Colaboratory
+[33m8665d557[m Threaded TensorBoard graph logging (#9070)
+[33m0b8639a4[m Rename 'labels' to 'instances' (#9066)
+[33m87e8dead[m zero-mAP fix remove `torch.empty()` forward pass in `.train()` mode (#9068)
+[33me6b4bf0b[m Created using Colaboratory
+[33m1499526f[m Created using Colaboratory
+[33m794f117f[m Created using Colaboratory
+[33m6077bf03[m TensorBoard fix in tutorial.ipynb (#9064)
+[33me0700cce[m Daemon `plot_labels()` for faster start (#9057)
+[33m27fb6fd8[m zero-mAP fix 3 (#9058)
+[33m841f312f[m zero-mAP fix return `.detach()` to EMA (#9056)
+[33m93f63ee3[m Refactor for simplification 2 (#9055)
+[33mc725511b[m Refactor for simplification (#9054)
+[33mf258cf8b[m Add `--save-hybrid` mAP warning (#9050)
+[33mfc8758a4[m Temporarily remove `macos-latest` from CI (#9049)
+[33ma409ec79[m AutoBatch protect from negative batch sizes (#9048)
+[33mba1c6773[m Created using Colaboratory
+[33maed88848[m Simplified notebook
+[33mfdcb92a9[m Update train.py `import val as validate` (#9037)
+[33m4a8ab3bc[m VOC `names` dictionary fix (#9034)
+[33m781401ec[m Default --data `imagenette160` training (fastest) (#9033)
+[33m1cd3e752[m Created using Colaboratory
+[33m840b7232[m Attach transforms to model (#9028)
+[33m4bc5520e[m Created using Colaboratory
+[33meb359c3a[m Add PyTorch Hub classification CI checks (#9027)
+[33ma5a47c52[m Remove unused `time_sync` import (#9026)
+[33mde6e6c01[m Created using Colaboratory
+[33m61adf017[m `torch.empty()` for speed improvements (#9025)
+[33md40cd0d4[m Improved `Profile()` inference timing (#9024)
+[33mc0e7a776[m Faster pre-processing for gray image input (#9009)
+[33m20049be2[m EMA FP32 assert classification bug fix (#9016)
+[33m529aafd7[m Fix TorchScript JSON string key bug (#9015)
+[33m5c854fab[m requires grad after reset params
+[33me08d568d[m Add glob quotes to detect.py usage example (#9007)
+[33m6728dad7[m Add weight `decay` to argparser (#9006)
+[33m0922bc20[m DockerHub tag update Usage example (#9005)
+[33m64e0757e[m [Classify]: Allow inference on dirs and videos (#9003)
+[33me83b422a[m Update dataset `names` from array to dictionary (#9000)
+[33me8f24d57[m Update README_cn.md (#9001)
+[33mfe809b8d[m Created using Colaboratory
+[33m7c9486e1[m Update `attempt_download(release='v6.2')` (#8998)
+[33me6175691[m Improve classification comments (#8997)
+[33md3ea0df8[m[33m ([m[1;33mtag: v6.2[m[33m)[m New YOLOv5 Classification Models (#8956)
+[33m3456fe65[m Fix torchvision dependency for ClearML logging (#8993)
+[33mfd004f56[m Fix bug with resume (#8912)
+[33md1dfcab6[m Created using Colaboratory
+[33m464c2c67[m Colab and Kaggle loggers removeHandler (#8985)
+[33md5f543a1[m Created using Colaboratory
+[33m1f5a2871[m Created using Colaboratory
+[33m4d05472d[m Allow multiple-model serving from Flask REST API (#8973)
+[33md7bc5d77[m Add `.tar` support for datasets (#8963)
+[33m3fc89994[m Created using Colaboratory
+[33m42812fcb[m Add bash script arguments (#8962)
+[33m7639e4c7[m Fix windows LOGGER with emojis output (#8958)
+[33mdc38cd03[m New `smart_inference_mode()` conditional decorator (#8957)
+[33m6aed0a7c[m GFLOPs computation fix for classification models (#8954)
+[33mf1214f23[m Remove DDP `destroy_process_group()` on train end (#8935)
+[33m11a76bb4[m Allow train to use zipped content (#8940)
+[33m2e57b841[m Deci.ai updates (#8928)
+[33m259e055b[m Fix `--source 'path/*.jpg'` glob example (#8927)
+[33m4c6bdbfc[m Direct download table links (#8917)
+[33m3d47fc6c[m Update README.md
+[33me242ede1[m Add `torch==1.7.0` to CI tests (#8916)
+[33m7ab1f506[m Scope `torchvision.utils.draw_bounding_boxes` import (#8915)
+[33mb551098d[m About "os.R_OK" in general.py (#8909)
+[33mf5335f22[m Capitalize YouTube (#8903)
+[33m4bb30527[m Edge TPU add `--search_delegate` fix (#8902)
+[33mc962db27[m Fix anchor incorrectly initialized (#8891)
+[33m48a85314[m Update README.md Environments icons (#8895)
+[33m0d8546a0[m Fix/improve social media bar (#8893)
+[33mfcfaf0a2[m Update README_cn.md
+[33m8f28ea49[m emoji-safe default logging (#8888)
+[33m73ed7a5e[m Created using Colaboratory
+[33md631a690[m Created using Colaboratory
+[33m20f1b7ea[m `smart_optimizer()` improved reporting (#8887)
+[33m030586a3[m Created using Colaboratory
+[33m5a0faef3[m Created using Colaboratory
+[33m378bde4b[m ClearML experiment tracking integration (#8620)
+[33m2794483e[m Update CI to default Python 3.10 (#8883)
+[33mdaed7a84[m `--resume` training from URL weights fix (#8884)
+[33me073658e[m `--resume` training from URL weights (#8882)
+[33mbc9fcb17[m HUBDatasetStats() preview images to 50 quality (#8880)
+[33m731a2f8c[m Single-line TRT dynamic assertion (#8871)
+[33m38a6eb6e[m Fix TensorRT --dynamic excess outputs bug (#8869)
+[33m84e77485[m Update dataloaders.py remove `float64` shapes (#8865)
+[33m628c05ca[m export.py replace `check_file` -> `check_yaml` (#8852)
+[33m6884da3a[m Add check_file(data) i.e. `--data coco128.yaml` (#8851)
+[33ma75a1105[m Self-contained checkpoint `--resume` (#8839)
+[33m4d8d84b0[m Created using Colaboratory
+[33me5991c98[m Created using Colaboratory
+[33m08c8c3e0[m New `smart_resume()` (#8838)
+[33m2e109099[m Fix missing attr model.model when loading custom yolov model (#8830)
+[33mb7635efb[m [pre-commit.ci] pre-commit suggestions (#8828)
+[33mba140e56[m RUN git clone instead of COPY to `/usr/src/app` (#8827)
+[33mf3c78a38[m Remove hook `torch.nan_to_num(x)` (#8826)
+[33m59578f27[m Update README.md with contributors.png (#8820)
+[33m0669f1b2[m Add tensor hooks and 10.0 gradient clipping (#8598)
+[33m7b9cc320[m Add .git to .dockerignore (#8815)
+[33m39ce8ca1[m Remove `assert not is_docker()` from GitHub checks (#8813)
+[33m67175196[m Update .pre-commit-config.yaml (#8812)
+[33m0e165c50[m Created using Colaboratory
+[33m685332ed[m Update .pre-commit-config.yaml (#8811)
+[33m40c41e42[m Fix Colab-update pre-commit EOF bug (#8810)
+[33mafa403a8[m Check git status on upstream `ultralytics` or `origin` dynamically (#8694)
+[33m7b72d9a6[m Update ci-testing.yml streamlined tests (#8809)
+[33m555976b3[m FROM nvcr.io/nvidia/pytorch:22.07-py3 (#8808)
+[33m9559601b[m Update requirements.txt with tf-cpu and tf-aarch64 (#8807)
+[33m34cb277d[m Fix val.py 'no labels found bug' (#8806)
+[33m59595c13[m Update train.py for `val.run(half=amp)` (#8804)
+[33m1e89807d[m `Detect.inplace=False` for multithread-safe inference (#8801)
+[33m7921351b[m Deprecate torch 1.6.0 `compat _non_persistent_buffers_set` (#8797)
+[33mec4de43a[m Update Colab Notebook CI (#8798)
+[33m56f5cb5a[m Print hubconf.py args (#8800)
+[33m91112462[m Add hubconf.py argparser (#8799)
+[33me34ae883[m ci-testing.yml Windows-friendly ENV variables (#8794)
+[33m52d3a9ae[m Fix `detect.py --update` list bug (#8783)
+[33me309a855[m Add val.py no label warning (#8782)
+[33m567397d6[m Fix confusion matrix update when no predictions are made (#8748)
+[33m587a3a37[m Dynamic batch size support for TensorRT (#8526)
+[33m3e858633[m Revert protobuf<=3.20.1 (#8742)
+[33m0b5ac224[m fix: broken ``is_docker`` check (#8711)
+[33mc775a296[m Revert "Fix BGR->RGB Bug in albumentations #8641" (#8727)
+[33md5116bbe[m coremltools>=5.2  for CoreML export (#8725)
+[33m2e1291fd[m Fix BGR->RGB Bug in albumentations #8641 (#8695)
+[33mb3678601[m New `HUBDatasetStats()` class (#8716)
+[33ma6f197ae[m Update dataloaders.py (#8714)
+[33m7215a0fb[m Avoid cv2 window init code on Windows (#8712)
+[33m0ab303b0[m Remove `else:` from load_image() (#8692)
+[33m916bdb1d[m Faster crop saving (#8696)
+[33mb5109576[m Move .dockerignore to root (#8690)
+[33m7f7bd6fb[m Set `torch.cuda.manual_seed_all()` for DDP (#8688)
+[33m1c5e92ab[m Add generator and worker seed (#8602)
+[33mb92430a8[m Update hubconf.py to reset logging level to INFO (#8680)
+[33mb17629e5[m Update warning emojis (#8678)
+[33m38721de7[m Update hubconf.py to reset LOGGER.level after load (#8674)
+[33m4c1784bd[m Use contextlib's suppress method to silence an error (#8668)
+[33m602d7ffb[m Check TensorBoard logger before adding graph (#8664)
+[33m92e47b85[m Upgrade onnxsim to v0.4.1 (#8632)
+[33mfbe67e46[m Fix `OMP_NUM_THREADS=1` for macOS (#8624)
+[33m9cf5fd5a[m assert torch!=1.12.0 for DDP training (#8621)
+[33m51fb467b[m Refactor optimizer initialization (#8607)
+[33m24305787[m FROM nvcr.io/nvidia/pytorch:22.06-py3 (#8600)
+[33ma34b376d[m Link fuse() to AutoShape() for Hub models (#8599)
+[33m6e86af3d[m Add `pip install wheel` to avoid legacy `setup.py install` (#8597)
+[33m5c45a4b1[m Update `tqdm>=4.64.0` and `thop>=0.1.1` (#8596)
+[33mcf28dda3[m Update `scipy>=1.7.3` (#8595)
+[33m7204c1ca[m Explicitly set `weight_decay` value (#8592)
+[33m72a81e7a[m Update requirements.txt comment spacing (#8562)
+[33mf4b05680[m Assert `--optimize` not used with cuda device (#8569)
+[33mf8722b44[m Raise error on suffix-less model path (#8561)
+[33m574ceedf[m Add `thop>=0.1.0` (#8558)
+[33mfbd30205[m Add TensorRT dependencies (#8553)
+[33m04146371[m Update metrics.py with IoU protected divides (#8550)
+[33ma84cd023[m CIoU protected divides (#8546)
+[33m7dafd1cb[m val.py `assert ncm == nc` fix (#8545)
+[33m526e6505[m Fix `LoadImages()` with dataset YAML lists (#8517)
+[33mc215e873[m XML export `--half` fix (#8522)
+[33m63ba0cb1[m Add `--half` arguments to export.py Usage examples (#8516)
+[33mbe42a24d[m Properly expose `batch_size` from OpenVINO similarly to TensorRT (#8514)
+[33mf17444ab[m Simplify benchmarks.py assertions (#8515)
+[33m3e54651f[m Add `--hard-fail` argument to benchmarks for CI errors (#8513)
+[33m39d7a936[m Fix AP calculation bug #8464 (#8484)
+[33mdd28df98[m Avoid FP64 ops for MPS support in train.py (#8511)
+[33m9d7bc06a[m Revert "Expose OpenVINO `batch_size` similarly to TensorRT" (#8510)
+[33m27d831b6[m Training reproducibility improvements (#8213)
+[33m36f64a98[m Update tutorial.ipynb (#8507)
+[33m1ab23fc6[m Exclude torch==1.12.0, torchvision==0.13.0 (Fix #8395) (#8497)
+[33mfdc9d919[m [pre-commit.ci] pre-commit suggestions (#8470)
+[33mc7689198[m Update stale.yml (#8465)
+[33m29d79a63[m Do not prefer Apple MPS (#8446)
+[33mda2ee393[m Expose OpenVINO `batch_size` similarly to TensorRT (#8437)
+[33md94b4705[m TRT `--half` fix autocast images to FP16 (#8435)
+[33m89833243[m Update cache comments (#8414)
+[33me50dc38d[m Improve `--local_rank` arg comment (#8409)
+[33m6935a54e[m Implementation of Early Stopping for DDP training (#8345)
+[33mf76a78e7[m Update tutorial.ipynb (#8380)
+[33m0c132406[m Fix ONNX `--dynamic` export on GPU (#8378)
+[33m50ff6eee[m Update protobuf requirement from <=3.20.1 to <4.21.3 (#8346)
+[33m34df5032[m Add File Size (MB) column to benchmarks (#8359)
+[33m8ebf569d[m Fix bias warmup LR init (#8356)
+[33mb0814c95[m Revamp Chinese docs (#8350)
+[33m0537e8dd[m Allow detect.py to use video size for initial window size (#8330)
+[33m5c990e36[m Create README_cn.md (#8344)
+[33m19f33cba[m Allow preview resize in detect.py (#8318)
+[33m724d5b21[m `device_name="MYRIAD" for Intel NCS2` comment (#8327)
+[33ma2a1ed20[m `logging.ERROR` on `RANK` not in (0, 1) (#8284)
+[33m1156a323[m Created using Colaboratory (#8255)
+[33m669f707d[m `process_batch()` as numpy arrays (#8254)
+[33md6051382[m HUB dataset_stats() error reporting (#8192)
+[33m303f3785[m Prefer MPS over CPU if available (#8210)
+[33m86e6add0[m Remove streaming source sleep period (#8243)
+[33m75bbaa8f[m Reject webcam inference on Colab/Kaggle (#8209)
+[33m6a67594c[m Bump actions/setup-python from 3 to 4 (#8186)
+[33mc23a441c[m Improved `dataset_stats()` YAML checks (#8125)
+[33m6adc53ba[m Docker GPU pip install `opencv-python<4.6.0.66` (#8164)
+[33m7c2691f9[m FROM nvcr.io/nvidia/pytorch:22.05-py3 (#8162)
+[33m6e466177[m AutoBatch checks against failed solutions (#8159)
+[33mcf298fb7[m fix(utils): missing edge when resample segments (#8092)
+[33m2dd3db00[m [pre-commit.ci] pre-commit suggestions (#8119)
+[33m18674e2f[m experimental.py Apple MPS device fix (#8121)
+[33m47233e16[m Improved dataset error introspection (#8091)
+[33m7cef03dd[m Fix torch `long` to `float` tensor on HUB macOS (#8067)
+[33ma80dd66e[m Update stale.yml to 300 ops per run (#8061)
+[33m7d87b9ea[m Make Docker actions conditional on `ultralytics/yolov5` repo (#8060)
+[33m6dd6aea0[m Fix FP32 TensorRT model export (#8046)
+[33m487edd56[m Dataset autodownload fstring updates
+[33m258f4c64[m `attempt_load()` deserialize fix (#8051)
+[33m50b886dd[m `.detach()` on bias init (#8044)
+[33mdcf80738[m Simplify and fix `--save-period` epoch 0 (#8042)
+[33m632559b1[m Add Dockerfile descriptions (#8031)
+[33md490bdd7[m Add best.pt PyTorch Hub inference to CI (#8024)
+[33m7433d382[m Add requirements.txt `protobuf<=3.20.1` (#8017)
+[33m5580b27d[m `check_requirements()` "" Windows double quote (#8016)
+[33m07e84370[m Pin CI `protobuf==3.20.1` (#8015)
+[33mbf1a6dda[m Update CI benchmarks to ONNX autoinstall (#8008)
+[33m09ba6f6e[m Add warning emoji ⚠️ on `--conf > 0.001` (#8005)
+[33m2373c507[m Update and add benchmarks to ci-testing.yml (#7996)
+[33ma6e99e4d[m cURL download double quotes (#7999)
+[33m980aace2[m Add `psutil` and `ipython` to requirements.txt (#7998)
+[33mcd71aa35[m `check_requirements()` Windows fix (#7997)
+[33m94557969[m Remove `formats` variable to avoid `pd` conflict (#7993)
+[33m1dcb7749[m Update requirements.txt with Usage example (#7966)
+[33m5d6fbb1e[m Update greetings.yml (#7965)
+[33md07f9ce0[m AMP check improvements backup YOLOv5n pretrained (#7959)
+[33m68ff6c9c[m Increase NMS fixed time limit 300ms + 30ms/img (#7957)
+[33mb5ebd47d[m Increase NMS time limit to 50 ms/img (#7956)
+[33mc215878f[m YOLOv5 Apple Metal Performance Shader (MPS) support (#7878)
+[33m27911dc8[m OpenVINO metadata fix2 (#7954)
+[33m0dd66e2d[m OpenVINO metadata fix (#7952)
+[33ma3a652c9[m Add OpenVINO metadata to export (#7947)
+[33m541a5b72[m Windows `check_file()` fix (#7938)
+[33m9b4e0543[m Fix AMP check tolerance (#7937)
+[33mcf3fb585[m AMP check image download backup (#7936)
+[33mcee5959c[m Code refactor (#7923)
+[33meb1217f3[m Add PyTorch AMP check (#7917)
+[33m547c89b3[m Add `--keras` argument for TF exports (#7921)
+[33m15057d2a[m Add `check_yaml()` to benchmarks.py (#7916)
+[33m5774a151[m Add `DWConvTranspose2d()` module (#7881)
+[33ma9a92aec[m `cv2.resize` interpolation fix (#7903)
+[33m43569d53[m Bug fix mAP0.5-0.95 (#6787)
+[33mf43cd53d[m Added Windows cmd to count GPU devices (#7891)
+[33mfe1b503c[m Removed shell=True from subprocess commands that require user inputs (#7875)
+[33m7d46c692[m Invert Docker Image publishing order (#7877)
+[33m9a7f289e[m Update Dockerfile-arm64 (#7860)
+[33m1b8e70f0[m Add TFDWConv() `depth_multiplier` (#7858)
+[33m91c82d8f[m Update Dockerfile-cpu install `libpython3.8-dev` (#7857)
+[33md7d2b10f[m Create docker.yml (#7856)
+[33me4d82c19[m Update CI CPU badge (#7855)
+[33m614ef110[m Update Dockerfile `--no-install-recommends` (#7846)
+[33mb52fd48b[m TFDWConv() `depthwise_initializer` fix (#7845)
+[33m05d4fc9d[m Replace `openvino-dev` with OpenVINO Runtime inference (#7843)
+[33m2b64b45c[m Fix TFDWConv() `c1 == c2` check (#7842)
+[33mfb7fa5be[m New TensorFlow `TFCrossConv()` module (#7827)
+[33md29df682[m Bump cirrus-actions/rebase from 1.6 to 1.7 (#7831)
+[33m4d59f65d[m New TensorFlow `TFDWConv()` module (#7824)
+[33m1e112ced[m YOLOv5 OpenVINO PyTorch Hub inference fix (#7826)
+[33m8aa2085a[m Refactor modules (#7823)
+[33mf0007141[m Refactor collections and fstrings (#7821)
+[33m3356f260[m Add Python version output (#7814)
+[33m4a295b1a[m Add `@threaded` decorator (#7813)
+[33m9d8ed37d[m Rename `utils/datasets.py` > `utils/dataloaders.py` (#7799)
+[33m5a1ef325[m Add random interpolation method augmentation (#6826)
+[33m5e077bfd[m Add Dockerfile-M1 (#7720)
+[33m8a4175cd[m Add smoothing to curve plots and max F1 index (#7798)
+[33md95a728f[m Implement DDP `static_graph=True` (#6940)
+[33mf3fecf94[m Pin downloads to release version (#7790)
+[33m48700646[m Ability to dowlnoad older assets (#7767)
+[33md059d1da[m Report fused model summary by default (#7722)
+[33maa7a0e91[m Update `on_train_end` callback (#7716)
+[33m1d0a0944[m Update tutorial.ipynb (#7715)
+[33mc4cb7c68[m Update README.md (#7686)
+[33md4ea61e0[m FROM nvcr.io/nvidia/pytorch:22.04-py3 (#7680)
+[33me305aba6[m Pin Docker-cpu `FROM ubuntu:20.04` (#7677)
+[33mc4862fcd[m Update Dockerfile-cpu to force python3.9 (#7675)
+[33mbff6e51b[m Disallow `--dynamic` when `--half` is passed (#7669)
+[33m1994ad93[m Bump github/codeql-action from 1 to 2 (#7665)
+[33m5743deb9[m Update plot.py (#7654)
+[33m488fb0a3[m Bump `scipy>=1.5` to meet numpy constraints (#7646)
+[33mb24a5768[m Reduce `opencv-python>=4.1.1` for Jetson Nano (#7645)
+[33m1a3ecb8b[m `increment_path()` robustness improvements (#7628)
+[33m177da7f3[m Add `--half` support for OpenVINO exports (#7615)
+[33mb53917de[m Remove `tqdm.auto` (#7599)
+[33m2611477d[m Fix `from yolov5 import utils` statement (#7578)
+[33me54e758c[m Add PyTorch-only benchmark arg (#7564)
+[33m950a85d9[m TensorRT PyTorch Hub inference fix (#7560)
+[33mc16671fc[m Add `print(results)` override for PyTorch Hub results (#7559)
+[33mbe675722[m Enable `results.print()` when `_verbose=False` (#7558)
+[33m7043872f[m PyTorch Hub `_verbose=False` fix2 (#7550)
+[33m1f1ec1c3[m Restrict TRT autoinstall to Linux-only (#7549)
+[33m404b4fef[m Update restapi.py (#7309)
+[33m3a89377c[m Improve availability of YOLOv5 in Russia (#7545)
+[33m4cac1cfc[m Add `--noplots` flag to suppress figures and images logging (#7534)
+[33mf62609eb[m Update check_requirements() with `cmds=()` argument (#7543)
+[33m4b284a12[m Update downloads.py current release (#7541)
+[33me04d8b1c[m Update precommit monthly python 3.7+ (#7542)
+[33mc264795f[m Add mdformat to precommit checks and update other version (#7529)
+[33mcc1d7df0[m Autoinstall TensorRT if missing (#7537)
+[33m813eba85[m Empty val batch CUDA device fix (#7539)
+[33mb804b36b[m Add Docker `--file` argument to build (#7527)
+[33md2e698c7[m Reduce val device transfers (#7525)
+[33m23718df1[m Fix val `plots=plots` (#7524)
+[33m6ea81bb3[m Add yesqa to precommit checks (#7511)
+[33m918d7b2b[m Refactor Dockerfiles to `utils/docker` (#7510)
+[33mb77c8d9d[m Added `YOLOv5_AUTOINSTALL` environment variable (#7505)
+[33m3f3852e2[m Fix val.py Ensemble() (#7490)
+[33mab5b9174[m `check_fonts()` download to `CONFIG_DIR` fix (#7489)
+[33mc9042dc2[m Improved non-latin `Annotator()` plotting (#7488)
+[33md876caab[m Update val.py (#7478)
+[33m3a25e81b[m Bump cirrus-actions/rebase from 1.5 to 1.6 (#7462)
+[33m7926afcc[m Add `--half` support for FP16 CoreML exports with (#7446)
+[33mc9a3b14a[m Disable `pbar` for DDP ranks > 0 (#7440)
+[33m3eefab1b[m Remove `tensorrt` pip install check (#7439)
+[33m014acde7[m Update `git_describe()` (#7402)
+[33m2da24661[m Fix EdgeTPU output directory (#7399)
+[33m5333b55e[m Remove OpenVINO ONNX `opset<=12` check (#7398)
+[33m74aaab33[m Add version warning for wandb (#7385)
+[33m4bb7eb8b[m Dynamic normalization layer selection (#7392)
+[33mfa569cda[m Add support for different normalization layers (#7377)
+[33mbd2dda8e[m Update optimizer param group strategy (#7376)
+[33m71685cbf[m Bump actions/stale from 4 to 5 (#7371)
+[33m8c420c4c[m Update ci-testing.yml (#7365)
+[33mb8d4f2bf[m Replace Slack with Community Forum in issues (#7364)
+[33mdb36f13c[m Delete FUNDING.yml (#7363)
+[33m1993efd5[m Swap `unsafe_chunk()` for `chunk()` (#7362)
+[33m406ee528[m Loss and IoU speed improvements (#7361)
+[33maa542ce6[m DetectMultiBackend() default `stride=32` (#7342)
+[33m3bb233a7[m Add ONNX export metadata (#7353)
+[33m698a5d7f[m Add `python benchmarks.py --test` for export-only (#7350)
+[33m446e6f56[m Rename 'MacOS' to 'macOS' (#7349)
+[33m302b00b5[m Update `_make_grid()` (#7346)
+[33m5f941a84[m Print dataset scan only `if RANK in (-1, 0)` (#7337)
+[33m676e10cf[m Simplify callbacks.py return (#7333)
+[33m5783de26[m Objects365 dataset breakdown images vs zips (#7335)
+[33mb7faeda0[m Fix Tf export for BottleneckCSP (#7330)
+[33m0ca85ed6[m Update Objects365.yaml (#7323)
+[33ma88a8146[m Copy wandb param dict before training to avoid overwrites (#7317)
+[33m245d6459[m Add callbacks (#7315)
+[33m32661f75[m Add `retry=3` to `download()` (#7313)
+[33mf7354589[m Use `tqdm.auto` (#7311)
+[33md257c75c[m Update export.py (#7301)
+[33m741fac81[m fix: disable usage of root logger (#7296)
+[33mc759bbdf[m Add  `check_requirements(('pycocotools>=2.0',))` (#7295)
+[33mb1300f3e[m Add dataset sizes (zipped) (#7293)
+[33md2e7ba2a[m val.py `--weights` and `--data` compatibility check (#7292)
+[33m5f97001e[m Context manager `open(file) as f` fixes (#7289)
+[33m2181ef37[m Update `cv2.imread()` patch with flags argument (#7287)
+[33m8d0291f3[m Enable TensorFlow ops for `--nms` and `--agnostic-nms` (#7281)
+[33m2da68664[m Update Dockerfile (#7282)
+[33m78829505[m [pre-commit.ci] pre-commit suggestions (#7279)
+[33mea72b84f[m Integrate offset into grid (#7262)
+[33m8bc839ed[m TorchScript single-output fix (#7261)
+[33m05cf0d1a[m Export single output only (#7259)
+[33m779efbb9[m Update
+[33mad0e4d5d[m `torch.split()` replace slicing on out-of-place inference (#7258)
+[33m4f839b79[m Refactor out-of-place `Detect()` for reduced ops (#7257)
+[33mffcbd8ca[m Export with official `nn.SiLU()` (#7256)
+[33mdda669a1[m Fix Flask REST API (#7210)
+[33m035b5548[m Update tutorial.ipynb (#7255)
+[33m3d3483cf[m Update tutorial.ipynb (#7254)
+[33m6f4eb95a[m Update setup.cfg to `description_file` field (#7248)
+[33ma19406b3[m Update minimum Python>=3.7.0 (#7247)
+[33m37675e11[m Fix `www.youtube.com` hostname (#7242)
+[33m71621df8[m Create CODE_OF_CONDUCT.md (#7233)
+[33m734ab033[m SavedModel TF Serve Fix (#7228)
+[33m4d157f57[m Update .pre-commit-config.yaml (#7230)
+[33m2c322184[m CLI `fire` prep updates (#7229)
+[33mc3d5ac15[m precommit: yapf (#5494)
+[33mdf9008ee[m Add train.py `--name cfg` option (#7202)
+[33mc94736ac[m `ENV OMP_NUM_THREADS=8` (#7215)
+[33m9c1e91ae[m Update tutorial.ipynb (#7212)
+[33mcf4f3c34[m yolo.py profiling updates (#7178)
+[33md51f9b2f[m Bump actions/cache from 2.1.7 to 3 (#7175)
+[33mee776323[m Revert `C3()` change (#7172)
+[33m1832264d[m Update
+[33mb2194b90[m `yolo.py --profile` updates (#7170)
+[33m7830e91b[m `yolo.py --profile` default GPU batch size 16
+[33m3373aab5[m NMS unused variable fix (#7161)
+[33me19f87eb[m Sidestep `os.path.relpath()` Windows bug (#7158)
+[33m26bfd444[m Adjust NMS time limit warning to batch size (#7156)
+[33m7a2a1189[m Add Architecture Summary to README Tutorials (#7146)
+[33ma4c66187[m Fix `detect.py --view-img` for non-ASCII paths (#7093)
+[33md115bbf5[m Fix `cv2.imwrite` on non-ASCII paths (#7139)
+[33ma0a4adf6[m Add PyTorch Hub `results.save(labels=False)` option (#7129)
+[33mbc3ed957[m `np.fromfile()` Chinese image paths fix (#6979)
+[33mc3ae4e4a[m Multi-threaded VisDrone and VOC downloads (#7108)
+[33mecc2c7ba[m Remove named arguments where possible (#7105)
+[33m6134ec5d[m Model summary `pathlib` fix (#7104)
+[33mee0b3b2a[m Update benchmarks significant digits (#7103)
+[33m05aae173[m `torch.split()` 1.7.0 compatibility fix (#7102)
+[33ma600baed[m Update model summary to display model name (#7101)
+[33ma2d617ec[m Update loss for FP16 `tobj` (#7088)
+[33m6f128031[m Update loss.py with `if self.gr < 1:` (#7087)
+[33m9b771a3e[m Revert "Update detect.py non-inplace with `y.tensor_split()` (#7062)" (#7074)
+[33m9cd89b75[m Fix2 `check_anchor_order()` in pixel-space not grid-space (#7067)
+[33m178c1095[m Add non-zero `da` `check_anchor_order()` condition (#7066)
+[33m9e75cbf4[m Update __init__.py (#7065)
+[33me278fd63[m Update W&B message to `LOGGER.info()` (#7064)
+[33m0529b772[m Update common.py lists for tuples (#7063)
+[33md5e363f2[m Update detect.py non-inplace with `y.tensor_split()` (#7062)
+[33mf327eee6[m Fix `check_anchor_order()` in pixel-space not grid-space (#7060)
+[33m529fbc18[m Use PIL to eliminate chroma subsampling in crops (#7008)
+[33m9f4d1137[m Fix incomplete URL substring sanitation (#7056)
+[33m6843ea5d[m Create SECURITY.md (#7054)
+[33m9ebec788[m Update Dockerfile to `git clone` instead of `COPY` (#7053)
+[33mb0ba101a[m `ComputeLoss()` indexing/speed improvements (#7048)
+[33m4effd064[m Consistent saved_model output format (#7032)
+[33m7c6a3356[m fix: add default PIL font as fallback  (#7010)
+[33m3f634d43[m Conditional `Timeout()` by OS (disable on Windows) (#7013)
+[33mc09fb2aa[m Update TQDM bar format (#6988)
+[33m932dc784[m YOLOv5 Export Benchmarks for GPU (#6963)
+[33m99de551f[m pt model to cpu on TF export
+[33m2d45de61[m Model `ema` key backward compatibility fix (#6972)
+[33mc13d4ce7[m EdgeTPU optimizations (#6808)
+[33m701e1177[m Tensor initialization on device improvements (#6959)
+[33m52c1399f[m DetectMultiBackend() return `device` update (#6958)
+[33mc84dd27d[m New val.py `cuda` variable (#6957)
+[33mc6b4f84f[m Update Dockerfile `torch==1.11.0+cu113` (#6954)
+[33mb94b59e1[m DetectMultiBackend() `--half` handling (#6945)
+[33m84efa62b[m Fix PyTorch Hub export inference shapes (#6949)
+[33mcaf7ad05[m Allow 3-point segments (#6938)
+[33m055e72af[m Optimize PyTorch 1.11.0 compatibility update (#6933)
+[33md3d9cbce[m PyTorch 1.11.0 compatibility updates (#6932)
+[33m6dd82c02[m Move `git_describe()` to general.py (#6918)
+[33me6e36aac[m Update bytes to GB with bitshift (#6886)
+[33macc58c1d[m Fix TRT `max_workspace_size` deprecation notice (#6856)
+[33ma5a1760e[m Bump actions/checkout from 2 to 3 (#6881)
+[33mc8a58992[m Bump actions/setup-python from 2 to 3 (#6880)
+[33m596de6d5[m Default FP16 TensorRT export (#6798)
+[33m7e98b480[m Update yolov5s.yaml (#6865)
+[33m47288407[m Update `--cache disk` deprecate `*_npy/` dirs (#6876)
+[33m8a66ebad[m Add `*.ts` to `VID_FORMATS` (#6859)
+[33m601dbb83[m AutoAnchor improved initialization robustness (#6854)
+[33mbcc92e21[m Update sweep.yaml (#6825)
+[33m63ddb6f0[m Update autoanchor.py (#6794)
+[33mc2403eb0[m Update PULL_REQUEST_TEMPLATE.md (#6783)
+[33m9ec51a63[m YOLOv5s6 params FLOPs fix (#6782)
+[33m0f819919[m Update EMA decay `tau` (#6769)
+[33mb2adc7c3[m Fix export for 1-channel images (#6780)
+[33mcea994b3[m Update hyp.VOC.yaml (#6772)
+[33m741cd0eb[m Update tutorial.ipynb (#6771)
+[33mc1615575[m Default `OMP_NUM_THREADS=8` (#6770)
+[33m47f265dd[m Update min warmup iterations from 1k to 100 (#6768)
+[33m4bab5652[m Update tutorial.ipynb (2 CPUs, 12.7 GB RAM, 42.2/166.8 GB disk) (#6767)
+[33m66aaf518[m Pre-commit table fix (#6744)
+[33m3752807c[m[33m ([m[1;33mtag: v6.1[m[33m)[m YOLOv5 v6.1 release (#6739)
+[33m2692e67c[m Updated VOC hyperparameters (#6732)
+[33ma936f5f2[m Switch default LR scheduler from cos to linear (#6729)
+[33mdbbb57cf[m GH: add PR template (#6482)
+[33mc43f1355[m Update `nw` to `max(nd, 1)` (#6714)
+[33m4de8b248[m Suppress `torch` AMP-CPU warnings (#6706)
+[33mde9c25b3[m Use `export_formats()` in export.py (#6705)
+[33ma297efc3[m Edge TPU inference fix (#6686)
+[33m03653790[m Fix floating point in number of workers `nw` (#6701)
+[33m56697c43[m Fix CoreML P6 inference (#6700)
+[33m3670d91b[m Fix `--evolve --bucket gs://...` (#6698)
+[33m66e5d794[m Fix TF exports >= 2GB (#6292)
+[33m07221f15[m FROM nvcr.io/nvidia/pytorch:21.10-py3 (#6677)
+[33m18b50811[m FROM nvcr.io/nvidia/pytorch:21.10-py3 (#6673)
+[33m25456284[m Update Dockerfile reorder installs (#6672)
+[33m09d263b3[m FROM nvcr.io/nvidia/pytorch:21.10-py3 (#6671)
+[33mbb054d5f[m FROM nvcr.io/nvidia/pytorch:22.01-py3 (#6670)
+[33m9a8ebe67[m Update Dockerfile `torch==1.10.2+cu113` (#6669)
+[33m2e5c67e5[m Robust `scipy.cluster.vq.kmeans` too few points (#6668)
+[33m7b80545e[m Add `--cache val` (#6663)
+[33m1ff43702[m Validate with 2x `--workers` single-GPU/CPU fix (#6659)
+[33m67690219[m Validate with 2x `--workers` (#6658)
+[33mee6c70ae[m Fix yolov3.yaml remove list (#6655)
+[33mca0a0078[m Fixed wandb logger KeyError (#6637)
+[33m53893002[m Fix ConfusionMatrix scale `vmin=0.0` (#6638)
+[33ma45e4723[m YOLOv5 Export Benchmarks (#6613)
+[33m96d8f860[m W&B: don't log media in evolve (#6617)
+[33m51f7750a[m W&B: Improve resume stability (#6611)
+[33m3eef8045[m Add YOLOv5n to Reproduce section (#6619)
+[33mb40bdd6b[m YouTube dependency fix `youtube_dl==2020.12.2` (#6612)
+[33mcb2ad9f6[m Fix `ROOT / data` when running W&B `log_dataset()` (#6606)
+[33mc21da596[m Fix `hyp_evolve.yaml` indexing bug (#6604)
+[33ma5c9057d[m Update train.py
+[33m364b7c51[m Fix YouTube dislike button bug in `pafy` package (#6603)
+[33m9cf80b7f[m return `opt` from `train.run()` (#6581)
+[33m9c513ca6[m Add `DATASETS_DIR` global in general.py (#6578)
+[33mf40854b6[m Allow custom` --evolve` project names (#6567)
+[33mf627bc53[m Fix `plot_labels()` colored histogram bug (#6574)
+[33m22da63e3[m Fix zero-export handling with `if any(f):` (#6569)
+[33m006eb40a[m Improved AutoBatch DDP error message (#6568)
+[33mb57abb17[m Move trainloader functions to class methods (#6559)
+[33mdc7e0930[m Edge TPU TF imports fix (#6542)
+[33mcba4303d[m Fix 6 Flake8 issues (#6541)
+[33me1a6a0b1[m flake8: code meanings (#6481)
+[33maff02819[m Load checkpoint on CPU instead of on GPU (#6516)
+[33m8fcdf3b6[m Fixing minor multi-streaming issues with TensoRT engine (#6504)
+[33m079b36d7[m Edge TPU `tf.lite.experimental.load_delegate` fix (#6536)
+[33m9bc72a3a[m Edge TPU export 'list index out of range' fix (#6533)
+[33m8d05716b[m Edge TPU compiler `sudo` fix (#6531)
+[33ma82292ec[m Social icons after text (#6473)
+[33mc3e599cf[m Update val_batch*.jpg for Chinese fonts (#6526)
+[33mcb40c9af[m TODO issues exempt from stale action (#6530)
+[33m19e0208f[m Update hyp.scratch-high.yaml (#6525)
+[33mb73c62eb[m W&B: Remember batchsize on resuming (#6512)
+[33m4c409332[m Suppress export.run() TracerWarnings (#6499)
+[33m842d049e[m Suppress `torch.jit.TracerWarning` on export (#6498)
+[33m77977e07[m CoreML inference fix `list()` -> `sorted()` (#6496)
+[33m5e4ff195[m Improved `export.py` usage examples (#6495)
+[33mb884ea36[m Simplify TF normalized to pixels (#6494)
+[33m6445a813[m Resolve dataset paths (#6489)
+[33m7539cd75[m Add Product Hunt social media icon (#6464)
+[33md8b5beb0[m Fix2 `select_device()` for Multi-GPU (#6461)
+[33m856d4e57[m Fix `select_device()` for Multi-GPU (#6434)
+[33mfe7de6a8[m Revert "Remove `dataset_stats()` autodownload capability (#6303)" (#6442)
+[33m3b7ac28e[m Add `*.asf` video support (#6436)
+[33md5966c93[m Namespace `VERBOSE` env variable to `YOLOv5_VERBOSE` (#6428)
+[33mff8646cd[m Update workflows (#6427)
+[33m16563ac5[m Prefer `tflite_runtime` for TFLite inference if installed (#6406)
+[33med9bac83[m Rename logger from 'utils.logger' to 'yolov5' (#6421)
+[33mcfecd903[m Update `greetings.yaml` email address (#6412)
+[33m482af479[m Add `detect.py` GIF video inference (#6410)
+[33m8efe9771[m Add `stop_training=False` flag to callbacks (#6365)
+[33mc43439aa[m Add `albumentations` to Dockerfile (#6392)
+[33mbd815d48[m FROM nvcr.io/nvidia/pytorch:21.10-py3 (#6379)
+[33m1b41a1d0[m FROM nvcr.io/nvidia/pytorch:21.12-py3 (#6377)
+[33m9bcc32a5[m Flush callbacks when on `--evolve` (#6374)
+[33me1893c89[m `DEVICE_COUNT` instead of `WORLD_SIZE` to calculate `nw` (#6324)
+[33m4e841b9b[m Reuse `de_parallel()` rather than `is_parallel()` (#6354)
+[33m9708cf56[m New environment variable `VERBOSE` (#6353)
+[33m750c42e4[m `export.py` automatic `forward_export` (#6352)
+[33me5219099[m Created using Colaboratory
+[33m0cf932bf[m `export.py` return exported files/dirs (#6343)
+[33me2e95b2d[m TensorRT `assert im.device.type != 'cpu'` on export (#6340)
+[33mfd55271c[m Console corrupted -> corrupt (#6338)
+[33m3119b2f2[m Remove `dataset_stats()` autodownload capability (#6303)
+[33mdb1f83be[m Fix `train.py` parameter groups desc error (#6318)
+[33m436ffc41[m `select_device()` cleanup (#6302)
+[33ma1a9c688[m Fixing bug multi-gpu training (#6299)
+[33me7bf3827[m Fix `device` count check (#6290)
+[33maf001349[m Add `is_kaggle()` function (#6285)
+[33m80473a65[m Update `export.py` with Detect, Validate usages (#6280)
+[33mf3085acc[m Enable ONNX `--half` FP16 inference (#6268)
+[33mb3eaf500[m TensorRT pip install
+[33m9b13a594[m Fix `cmd` string on `tfjs` export (#6243)
+[33m6865d19a[m TensorRT 7 export fix (#6235)
+[33m33a67b49[m Update P2-P7 `models/hub` variants (#6230)
+[33mad565e31[m Update README speed reproduction command (#6228)
+[33mf80c4630[m Attempt `edgetpu-compiler` autoinstall (#6223)
+[33mb4ac3df6[m Add `edgetpu_compiler` checks (#6218)
+[33m00d7b978[m TFLite `--int8` 'flatbuffers==1.12' fix 2 (#6217)
+[33m8125ec5d[m TFLite `--int8` 'flatbuffers==1.12' fix (#6216)
+[33m5402753a[m Edge TPU compiler comment (#6196)
+[33m9e9219fe[m Fix `nan`-robust stream FPS (#6198)
+[33mb5b56a3c[m Add CoreML inference (#6195)
+[33m7b31a531[m Add `tensorrt>=7.0.0` checks (#6193)
+[33ma2f4a179[m TensorRT 7 `anchor_grid` compatibility fix (#6185)
+[33mfb839298[m Fix TorchScript on mobile export (#6183)
+[33m5bd6a97b[m Global export format sort (#6182)
+[33m7cad6597[m Ignore `*_openvino_model/` dir (#6180)
+[33m63a4d862[m Add OpenVINO inference (#6179)
+[33mb4a29b5a[m Update NMS `max_wh=7680` for 8k images (#6178)
+[33m5344e54d[m [pre-commit.ci] pre-commit suggestions (#6177)
+[33m968e3006[m Update greetings.yml (#6165)
+[33mec4b6dd2[m Update export format docstrings (#6151)
+[33me1dc8943[m Enable AdamW optimizer (#6152)
+[33md95978a5[m Add EdgeTPU support (#3630)
+[33maffa2843[m Refactor/reduce G/C/D/IoU `if: else` statements (#6087)
+[33m7b6938d5[m Log best results (#6085)
+[33m9155eb86[m W&B: Log best results after training ends (#6120)
+[33mdb6ec66a[m W&B: track batch size after autobatch (#6039)
+[33mc72270c0[m Init tensor directly on device (#6068)
+[33mafa5cfb0[m Reduce G/D/CIoU logic operations (#6074)
+[33m95c7bc25[m OpenVINO Export (#6057)
+[33mdc54ed57[m `--freeze` fix (#6044)
+[33mb8a4babd[m Simplify `set_logging()` indexing (#6042)
+[33m0db9d5b6[m Kaggle `LOGGER` fix (#6041)
+[33m26f04152[m Add dataset source citations (#6032)
+[33mabbdd480[m train -> val comment fix (#6024)
+[33m361705d9[m Multi-layer capable `--freeze` argument (#6019)
+[33m407a9057[m Check TensorRT>=8.0.0 version (#6021)
+[33mc1249a47[m *.torchscript inference `self.jit` fix (#6007)
+[33m628817df[m Recommend `jar xf file.zip` for zips (#5993)
+[33mda9a1b71[m Allow `--weights URL` (#5991)
+[33mb7d18f36[m Increase `ar_thr` from 20 to 100 for better detection on slender (high aspect ratio) objects (#5556)
+[33mc9a46a60[m Update callbacks.py with `__init__()` (#5979)
+[33md699c21c[m YOLOv5s6 params and FLOPs fix (#5977)
+[33m2d0c6afb[m make parameter ignore epochs (#5972)
+[33me8ef8fb1[m `pretrained=False` fix (#5966)
+[33m19c56e60[m Fix `imgsz` bug (#5948)
+[33m8f354362[m Fix Detections class `tolist()` method (#5945)
+[33m8f875d93[m Refactor NUM_THREADS (#5954)
+[33m2c631754[m Add nms and agnostic nms to export.py (#5938)
+[33ma42af30d[m Update `strip_optimizer()` (#5949)
+[33m922fbd82[m fix .gitignore not tracking existing folders (#5946)
+[33mc45f9f67[m Make `select_device()` robust to `batch_size=-1` (#5940)
+[33m4fb6dd4b[m Fix ONNX opset inconsistency with parseargs and run args (#5937)
+[33m5bdb28ed[m Default PyTorch Hub to `autocast(False)` (#5926)
+[33mc77a5a84[m Absolute '/content/sample_data' (#5922)
+[33ma3d5f1d3[m Revert "Update `plot_lr_scheduler()` (#5864)" (#5920)
+[33m7d56d451[m Add hardware checks to `notebook_init()` (#5919)
+[33m581dc301[m Add ONNX inference providers (#5918)
+[33m554f7825[m Add *.engine (TensorRT extensions) to .gitignore (#5911)
+[33m3f152e58[m Update wandb_utils.py (#5908)
+[33mfa05f8c9[m `Detections().tolist()` explicit argument fix (#5907)
+[33m1075488d[m Single-command multiple-model export (#5882)
+[33m7bf04d9b[m `AutoShape()` models as `DetectMultiBackend()` instances (#5845)
+[33md885799c[m Update `nl` after `cutout()` (#5873)
+[33m360eec69[m Update `plot_lr_scheduler()` (#5864)
+[33m92a73910[m Add `--workers 8` argument to val.py (#5857)
+[33m00e308f7[m Update TorchScript suffix to `*.torchscript` (#5856)
+[33m30db14fe[m Update val.py (#5838)
+[33m1679aacd[m Update `LoadImages` `ret_val=False` handling (#5852)
+[33me8f8f2b9[m Avoid inplace modifying`imgs` in `LoadStreams` (#5850)
+[33mbc484579[m Handle non-TTY `wandb.errors.UsageError` (#5839)
+[33ma4207a20[m Fix TensorRT potential unordered binding addresses (#5826)
+[33m5ca5dd4c[m Update `dataset_stats()` to `cv2.INTER_AREA` (#5821)
+[33m8277033b[m Bump actions/cache from 2.1.6 to 2.1.7 (#5816)
+[33m94d8fec6[m GCP VM from Image example (#5814)
+[33mfcd180d3[m Refactor new `model.warmup()` method (#5810)
+[33m7c6bae0a[m Remove NCOLS from tqdm (#5804)
+[33m53349dac[m Scope TF imports in `DetectMultiBackend()` (#5792)
+[33mf2ca30a4[m W&B: refactor W&B tables (#5737)
+[33m4c7b2bdc[m TorchScript `torch==1.7.0` Path support (#5781)
+[33mc55e674a[m fix the path error in export.py (#5778)
+[33m4ca4aec4[m Do not save hyp.yaml and opt.yaml on evolve (#5775)
+[33m7a398034[m Export, detect and validation with TensorRT engine file (#5699)
+[33mf17c86b7[m Save *.npy features on detect.py `--visualize` (#5701)
+[33md6ae1c83[m Created using Colaboratory
+[33m51859819[m SECURITY.md (#5695)
+[33m46daa7b7[m Remove `.autoshape()` method (#5694)
+[33m36d12a50[m Explicitly compute TP, FP in val.py (#5727)
+[33meb51ffdc[m Prune unused imports (#5711)
+[33m8df64a91[m `NUM_THREADS` leave at least 1 CPU free (#5706)
+[33m562191f5[m Update export.py docstring (#5689)
+[33m47fac9ff[m Update train.py comment to 'Model attributes' (#5670)
+[33m0453b758[m TFDetect dynamic anchor count assignment fix (#5668)
+[33me80a09bb[m Update ci-testing.yml to Python 3.9 (#5660)
+[33mfb19561f[m Bump pip from 19.2 to 21.1 in /utils/google_app_engine (#5661)
+[33mc2523be6[m Replace 2 `transpose()` with 1 `permute` in TransformerBlock()` (#5645)
+[33m540ef0dd[m W&B refactor, handle exceptions, CI example (#5618)
+[33m80cfaf40[m AutoAnchor and AutoBatch `LOGGER` (#5635)
+[33m09d17038[m Default DataLoader `shuffle=True` for training (#5623)
+[33m7473f0f9[m DDP `WORLD_SIZE`-safe dataloader workers (#5631)
+[33md5b21b1e[m HUB dataset previews to JPEG (#5627)
+[33mdef7a0fd[m Improve plots.py robustness (#5616)
+[33m69032519[m `np.unique()` sort fix for segments (#5609)
+[33m30bc089c[m Update val.py `speed` and `study` tasks (#5608)
+[33m61c50199[m Update train, val `tqdm` to fixed width (#5367)
+[33m27bf4282[m Fix `check_requirements()` resource warning allocation open file (#5602)
+[33m7ebb5e5d[m Add `notebook_init()` to utils/__init__.py (#5488)
+[33m7207fe95[m FROM nvcr.io/nvidia/pytorch:21.10-py3 (#5592)
+[33m38832611[m New `DetectMultiBackend()` class (#5549)
+[33m79bca2bf[m `LOGGER` consolidation (#5569)
+[33m0de4a9c3[m Add `--conf-thres` >> 0.001 warning (#5567)
+[33mb8f979ba[m Inside Ultralytics video https://youtu.be/Zgi9g1ksQHc (#5546)
+[33m3f64ad17[m Fix `save_one_box()` (#5545)
+[33m60c8a4f6[m Fix for *.yaml emojis on load (#5543)
+[33me189fa15[m `intersect_dicts()` in hubconf.py fix (#5542)
+[33mfa2344cd[m Update `models/hub/*.yaml` files for v6.0n release (#5540)
+[33m76d90d89[m Update Issue Templates with 💡 ProTip! (#5539)
+[33mcb18cac3[m Update autobatch.py (#5538)
+[33m60e42e16[m Update autobatch.py (#5536)
+[33m33643799[m Suppress ONNX export trace warning (#5437)
+[33md895a7f7[m Update train.py (#5451)
+[33m98a3fd7e[m Update export.py (#5471)
+[33m32b87387[m Update `check_file()` avoid repeat URL downloads (#5526)
+[33m5f603a9d[m Fix detect.py URL inference (#5525)
+[33m85350533[m Fix `increment_path()` explicit file vs dir handling (#5523)
+[33mbcc085d8[m Common `is_coco` logic betwen train.py and val.py (#5521)
+[33mbfacfc6b[m Update cls bias init (#5520)
+[33m36a4de18[m Update plots.py feature_visualization path issues (#5519)
+[33m99a45bad[m Write date in checkpoint file (#5514)
+[33m17b5f5b9[m Fix `increment_path()` with periods (#5518)
+[33m01555483[m precommit: isort (#5493)
+[33mac2c49a2[m Handle edgetpu model inference (#5372)
+[33m5866646c[m Fix float zeros format (#5491)
+[33m8a803f36[m Delete code-format.yml (#5487)
+[33m34b859a4[m Keras CI fix (#5486)
+[33m06bf8ef7[m Add tf.py verification printout (#5484)
+[33m62d77a10[m Created using Colaboratory
+[33m84a8099b[m Update torch_utils.py import `LOGGER` (#5483)
+[33mdf30426c[m Improve GPU name (#5478)
+[33m0eb37ad8[m Remove `check_requirements(('tensorflow>=2.4.1',))` (#5476)
+[33m042f02ff[m Fix tf.py `LoadImages()` dataloader return values (#5455)
+[33m7476012a[m Update `check_git_status()` to run under `ROOT` working directory (#5441)
+[33m19c8760c[m Fixed a small typo in CONTRIBUTING.md (#5445)
+[33m4c0982a2[m Update README.md (#5438)
+[33m7b1f7aec[m Update `get_loggers()` (#4854)
+[33m8c326a1e[m Meshgrid `indexing='ij'` for PyTorch 1.10 (#5309)
+[33m5d4258fa[m Fix MixConv2d() remove shortcut + apply depthwise (#5410)
+[33m7f9bbf02[m Update GitHub issues templates (#5404)
+[33m620b535f[m Update sweep.py (#5402)
+[33med887b59[m Add pre-commit CI actions (#4982)
+[33ma4fece8c[m DDP `nl` fix (#5332)
+[33m9c31a66f[m Update `AutoShape.forward()` model.classes example (#5324)
+[33mca19df5f[m Add `autobatch` feature for best `batch-size` estimation (#5092)
+[33m692be757[m W&B: Media panel fix (#5317)
+[33m3d897986[m Small fixes to docstrings (#5313)
+[33mfee83c16[m Weights download script minor improvements (#5213)
+[33me0c3f42d[m Uncomment OpenCV 4.5.4 requirement in detect.py (#5305)
+[33m79d8f1f6[m Created using Colaboratory
+[33mb760acec[m Created using Colaboratory
+[33m441b47c4[m More informative `EarlyStopping()` message (#5303)
+[33m15e8c4c1[m take EXIF orientation tags into account when fixing corrupt images (#5270)
+[33mdb3bbdde[m autosplit: take image files with uppercase extensions into account (#5269)
+[33ma18b0c36[m Update rebase.yml with workflows permissions (#5255)
+[33mfd3e2ad8[m Bump actions/stale from 3 to 4 (#5253)
+[33maa265041[m Bump actions/cache from 1 to 2.1.6 (#5252)
+[33mfb12faaf[m Bump cirrus-actions/rebase from 1.4 to 1.5 (#5251)
+[33m8e873967[m Add dependabot for GH actions (#5250)
+[33m4f5e274e[m Update rebase.yml (#5245)
+[33m752d97df[m Add `on_fit_epoch_end` callback (#5232)
+[33m13f72755[m Update/inplace ops (#5233)
+[33m0000334a[m Update Objects365.yaml val count (#5212)
+[33m991c654e[m Autofix duplicate label handling (#5210)
+[33mfc360642[m Update Objects365.yaml to include the official validation set (#5194)
+[33m1c9f710b[m Add hyp.scratch-med.yaml (#5196)
+[33m6b31cfd7[m Highlight contributors in README (#5173)
+[33m7ee5aed0[m Improved check_suffix() robustness to `''` and `""` (#5192)
+[33m0be58f16[m Adjust legend labels for classes without instances (#5174)
+[33m1172ac15[m W&B: DDP fix (#5176)
+[33me520e820[m Update autodownload fallbacks to v6.0 assets (#5177)
+[33md0bfeb39[m W&B: fix DDP with wandb disabled (#5163)
+[33ma3469269[m Add class filtering to `LoadImagesAndLabels()` dataloader (#5172)
+[33mb754525e[m Check `'onnxruntime-gpu' if torch.has_cuda` (#5087)
+[33m20a809de[m Update stale.yml (#5156)
+[33m26784afd[m Use YOLOv5n for CI testing (#5154)
+[33m34da872a[m fix `tf` conversion in new v6 models (#5153)
+[33m956be8e6[m[33m ([m[1;33mtag: v6.0[m[33m)[m YOLOv5 release v6.0 (#5141)
+[33m938efe5d[m update `detect.py` in order to support torch script (#5109)
+[33m0bf24cf6[m Add OpenCV DNN option for ONNX inference (#5136)
+[33m9d75e42f[m Refactor `Detect()` anchors for ONNX <> OpenCV DNN compatibility (#4833)
+[33m153873e9[m Fix `ROOT` as relative path (#5129)
+[33m4cf7d487[m Update plots.py (#5127)
+[33m7d37b3c5[m Update val.py `pad = 0.0 if task == speed else 0.5` (#5121)
+[33mba4b79de[m Update val.py `--speed` and `--study` usages (#5120)
+[33m4f9718ab[m Pass `--device` for `--task study` (#5118)
+[33ma0e15046[m Fix different devices bug when moving model from GPU to CPU (#5110)
+[33m4a6dfffd[m Pass `LOCAL_RANK` to `torch_distributed_zero_first()` (#5114)
+[33m97b6b14a[m Add `requests` to requirements.txt (#5112)
+[33m276b6745[m Fix SKU-110K HUB: `OSError` (#5106)
+[33m48b00dbc[m Re-open IP-camera videostream if disconnected (#5074)
+[33m57ce73cd[m Update datasets.py comments (#5088)
+[33mce8e5dc8[m Update Dockerfile to `ADD` Arial.ttf (#5084)
+[33m070af881[m Fix `yaml.safe_load()` ignore emoji errors (#5060)
+[33m5afc9c25[m Implement `--save-period` locally (#5047)
+[33md133968b[m Clip TTA Augmented Tails (#5028)
+[33m1922ddea[m Fix pylint: do not use bare 'except' (#5025)
+[33mb0ade484[m Fix missing `opt.device` on `--task study` (#5031)
+[33mcce7e78f[m Created using Colaboratory
+[33m89a6e9ff[m Compute loss on final val (#5017)
+[33mb20e3814[m Update README.md (#5015)
+[33m452e8470[m Update train.py (#5014)
+[33mcce313d6[m Add YOLOv5 Survey link to README.md (#5000)
+[33mba990923[m Update W&B README (#5006)
+[33m19162268[m Created using Colaboratory
+[33m42354d70[m Update README.md
+[33m76d301bd[m Fix URL parsing bug (#4998)
+[33mcd35a009[m Revert `torch.hub.load()` test (#4986)
+[33m9988059b[m Clickable CI badge (#4985)
+[33m6b19f728[m Created using Colaboratory
+[33mcff7d2af[m Created using Colaboratory
+[33m0c93ec76[m Faster `--img 64` CI tests (#4979)
+[33m94705a95[m Add Hub custom models to CI tests (#4978)
+[33m0c874787[m Update wandb_utils.py (#4953)
+[33m38c779b0[m Created using Colaboratory
+[33m29acedf7[m Add Roboflow to README (#4972)
+[33mfb982d60[m Fix relative `ROOT` Pytorch Hub custom model bug (#4974)
+[33mc1bed601[m Fix `isascii()` method calls for python 3.6 (#4958)
+[33m2993c3fa[m Add `roboflow` (#4956)
+[33m3aeb57d6[m Created using Colaboratory
+[33m5ed28603[m Update relative `ROOT` logic (#4955)
+[33m4e04cb0d[m Allow YOLOv5 execution from arbitrary `cwd` (#4954)
+[33ma820b43a[m Automatic Chinese fonts plotting (#4951)
+[33mc5ba2abb[m Update Dockerfile (#4935)
+[33m5a8e4343[m Scope `check_file()` search space (#4933)
+[33m79338323[m Update default Albumentations (#4931)
+[33md856c482[m Validate `best.pt` on train end (#4889)
+[33me6878734[m Add Slack Forum badge to README (#4930)
+[33m39c17ce0[m Fix `root` referenced before assignment (#4920)
+[33ma64a4c83[m Replace `os.system('unzip file.zip')` -> `ZipFile.extractall()` (#4919)
+[33m14926327[m Fix zipfile name for coco128-segments (#4914)
+[33m2c2ef25f[m TensorFlow.js export enhancements (#4905)
+[33mce7fa81d[m Avoid out-of-image class labels (#4902)
+[33mdad86605[m Fix arg help string to match 'classes' arg name (#4893)
+[33m59aae85a[m W&B: Fix dataset check (#4879)
+[33m9febea79[m W&B: Login only in master processes (#4866)
+[33m8ad9e4ed[m Annotator `check_font()` RANK -1 remove progress (#4864)
+[33m2b3109ee[m Fix DDP destruction `LOGGER.info()` (#4863)
+[33m28096163[m Update Dockerfile (#4862)
+[33m40d1c805[m Update Dockerfile (#4861)
+[33m9ef94940[m Update greetings.yml (#4856)
+[33m4c839eeb[m Simplify `check_requirements()` usage (#4855)
+[33m4d1a2ac8[m Update `sys.path.append(str(ROOT))` (#4852)
+[33m3732f9ac[m Refactor argparser printing to `print_args()` (#4850)
+[33m84bfa892[m Consolidate `init_seeds()` (#4849)
+[33m302a1b0b[m W&B: Enable login timeout (#4843)
+[33m4fdaec04[m Single `cache_version` definition (#4846)
+[33mfe39562a[m Sorted datasets update to `cache_labels()` (#4845)
+[33m3a822a22[m `PIL.ImageDraw.text(anchor=...)` removal, reduce to `>=7.1.2` (#4842)
+[33me83792e6[m Created using Colaboratory
+[33m850f98f5[m Created using Colaboratory
+[33m27a4736e[m Fix val.py study plot (#4831)
+[33m3beb871b[m Multiple TF export improvements (#4824)
+[33m6b44ecd5[m Fix 'PyTorch starting from' for URL weights (#4828)
+[33m43b2817f[m Feature/fix export on url (#4823)
+[33m0dc725e3[m Refactor `forward()` method profiling (#4816)
+[33m621b6d5b[m Evolution `--resume` fix (#4802)
+[33mb74dd4ba[m Add `--int8` argument (#4799)
+[33mfcb225c1[m Shuffle all 4(or 9) images in mosaic augmentation (#4787)
+[33maa185990[m Update ci-testing.yml (#4772)
+[33mb161edf8[m Update ci-testing.yml (#4770)
+[33mc3a93d78[m Add TensorFlow formats to `export.py` (#4479)
+[33mc47be26f[m Replace `path.absolute()` with `path.resolve()` (#4763)
+[33mcd810c82[m Centralize `user_config_dir()` decision making (#4755)
+[33m22ee6fb7[m Update `is_writeable()` for 2 methods (#4744)
+[33mff352925[m Add TF and TFLite models to `.dockerignore` (#4748)
+[33m6c554b75[m Add TF and TFLite models to `.gitignore` (#4747)
+[33ma144536f[m Fix `is_writeable()` for 3 OS support (#4743)
+[33m19e28e3b[m Add `callbacks` to train function in W&B sweep (#4742)
+[33m7af1b4c2[m Improved `detect.py` timing (#4741)
+[33mc5360f6e[m Fix `--data from_HUB.zip` (#4732)
+[33m4a025ae9[m Fix `user_config_dir()` for GCP/AWS functions (#4726)
+[33m2d9411db[m Scope `onnx-simplifier` requirements check (#4730)
+[33m1cad0ce2[m Allow `multi_label` option for NMS with PyTorch Hub (#4728)
+[33mdeb434ae[m Make CONFIG_DIR configurable per environment variable (#4727)
+[33m0d8a1842[m Add `crops = results.crops()` dictionary (#4676)
+[33m8e94bf62[m Add `user_config_dir('Ultralytics')` (#4715)
+[33m25a7e1da[m Update `check_yaml()` comment (#4713)
+[33mf984cce5[m Fix `check_suffix()` (#4712)
+[33ma2b3c716[m Add suffix checks (#4711)
+[33m8e5f9ddb[m Remove redundant `ComputeLoss` code (#4701)
+[33m2317f86c[m Optimised Callback Class to Reduce Code and Fix Errors (#4688)
+[33m54874518[m EarlyStopper updates (#4679)
+[33mf64fab58[m Fixed 'meta' and 'hyp' may out of order when using evolve (#4657)
+[33mfad57c29[m Fix `is_coco` on missing `data['val']` key (#4642)
+[33m234e8ae6[m Fix for `plot_evolve()` string argument (#4639)
+[33mde534e92[m Fix 3 for Arial.ttf redownloads with hub inference (#4629)
+[33ma4e8f78c[m Fix 2 for Arial.ttf redownloads with hub inference (#4628)
+[33mba0f8087[m Fix for Arial.ttf redownloads with hub inference (#4627)
+[33m50a98286[m DDP `torch.jit.trace()` `--sync-bn` fix (#4615)
+[33mbb5ebc29[m Close `matplotlib` plots after opening (#4612)
+[33m11e7c7b4[m W&B: Don't log models in evolve operation (#4611)
+[33m3a72d4a7[m Update `check_git_status()` warning (#4610)
+[33m35fe0314[m Fix: add P2 layer 21 to yolov5-p2.yaml `Detect()` inputs (#4608)
+[33me7d1842a[m Auto-download Arial.ttf on init (#4606)
+[33mbb4da083[m Created using Colaboratory
+[33mdc13820c[m TensorBoard `on_train_end()` speed improvements (#4605)
+[33mb894e69d[m Update mosaic plots font size (#4596)
+[33mbfad3644[m Created using Colaboratory
+[33mdbbc6b5c[m Re-order `plots.py` to class-first (#4595)
+[33me5e5ebc7[m Auto-UTF handling (#4594)
+[33mde44376d[m Create `Annotator()` class (#4591)
+[33m7b35971b[m Fix bug in `plot_one_box` when label is `None` (#4588)
+[33mbbfafeab[m Add `Profile()` profiler (#4587)
+[33md7aa3f15[m Remove `image_weights` DDP code (#4579)
+[33m93cc0157[m Add EarlyStopping feature (#4576)
+[33m8b18b663[m ONNX opset 13 (#4566)
+[33m8ac96b79[m Fix for AP calculation limits 0.0 - 1.0 (#4563)
+[33me899d6e8[m Fix for corrupt JPEGs auto-fix PR (#4560)
+[33m11f85e7e[m Auto-fix corrupt JPEGs (#4548)
+[33m2da6444c[m Fix for `python models/yolo.py --profile` (#4541)
+[33m79af1144[m Automatic TFLite uint8 determination (#4515)
+[33m7b1643b5[m Add `install=True` argument to `check_requirements` (#4512)
+[33m7316b78e[m W&B: Refactor the wandb_utils.py file (#4496)
+[33md1182c4f[m `check_requirements(('coremltools',))` (#4478)
+[33m1d65e819[m Fix missing labels after albumentations (#4455)
+[33m6dd7dd8d[m Fix default `--weights yolov5s.pt` (#4458)
+[33m808bcad3[m Add TensorFlow and TFLite export (#1127)
+[33mf3e3f760[m TFLite prep (#4436)
+[33mdbc06ce2[m Update hubconf.py attempt_load  import (#4428)
+[33m19d03a95[m Remove DDP process group timeout (#4422)
+[33m4e65052f[m Created using Colaboratory
+[33m01cdb767[m Add `SPPF()` layer (#4420)
+[33m24bea5e4[m Standardize headers and docstrings (#4417)
+[33mbb0aed1b[m Created using Colaboratory
+[33m2da4e7ac[m Merge PIL and OpenCV in `plot_one_box(use_pil=False)` (#4416)
+[33m63e09fdc[m Remove `encoding='ascii'` (#4413)
+[33m4e8c81a3[m Add `yolov5s-ghost.yaml` (#4412)
+[33me0863473[m Update plots.py (#4407)
+[33md9f23ed6[m No cache option for reading datasets (#4376)
+[33m57c342a6[m Simplify ONNX inference command (#4405)
+[33m3e7c59ad[m Fix rename `utils.google_utils` to `utils.downloads` (#4393)
+[33ma4e45530[m W&B: Fix for 4360 (#4388)
+[33m75d323dd[m W&B: Add advanced features tutorial (#4384)
+[33m11e4aebf[m Update README.md (#4387)
+[33mb27f69f1[m Created using Colaboratory
+[33me7fc2740[m Fix module count in parse_model (#4379)
+[33mce7deec4[m `int(mlc)` (#4385)
+[33me96c74b5[m Simpler code for DWConvClass (#4310)
+[33mf409d8e5[m Update README.md (#4309)
+[33m86c7150c[m Update newline (#4308)
+[33me78aeac9[m Evolve in CSV format (#4307)
+[33m4103ce9a[m Simplify callbacks (#4289)
+[33m771ac6c5[m Fixed logging level in distributed mode (#4284)
+[33m2d990632[m Feature `python train.py --cache disk` (#4049)
+[33m621caea5[m W&B: Fix sweep bug (#4276)
+[33m388016e9[m Update 'results saved to' string (#4275)
+[33m587c4b4b[m Add `DWConvClass()` (#4274)
+[33m9c6732f6[m Update variables (#4273)
+[33m306fc011[m Update Autoshape forward header (#4271)
+[33m53bfcbe0[m Update AP calculation (#4260)
+[33mcd540d86[m W&B: suppress warnings (#4257)
+[33mb74929c9[m Add `train.py` and `val.py` callbacks (#4220)
+[33md8f18834[m Update `profile()` for CUDA Memory allocation (#4239)
+[33mbceb57b9[m Add `python train.py --freeze N` argument (#4238)
+[33m94686575[m Update profiler (#4236)
+[33m8d3c3ef4[m Fix weight decay comment (#4228)
+[33m1a10b0ec[m Created using Colaboratory
+[33m083c13da[m Created using Colaboratory
+[33m18f6ba77[m Suppress torch 1.9.0 max_pool2d() warning (#4227)
+[33mc2c958c3[m Explicit `requirements.txt` location (#4225)
+[33m7820614c[m Add `@try_except` decorator (#4224)
+[33mb60b62e8[m PyCharm reformat (#4209)
+[33m750465ed[m W&B: More improvements and refactoring (#4205)
+[33me016b155[m Update yolov5-bifpn.yaml (#4208)
+[33me88e8f7a[m W&B: Restructure code to support the new dataset_check() feature (#4197)
+[33m2683b180[m Update Hub Path inputs (#4200)
+[33m1f31b7c5[m Create yolov5-bifpn.yaml (#4195)
+[33m5d66e487[m Train from `--data path/to/dataset.zip` feature (#4185)
+[33m3fef1170[m Update comments header (#4184)
+[33m63a1971e[m Improve docstrings and run names (#4174)
+[33m0ad6301c[m Update script headers (#4163)
+[33mf8e11483[m Update dataset headers (#4162)
+[33m8acb5734[m Created using Colaboratory
+[33m96e36a7c[m New CSV Logger (#4148)
+[33m3764277f[m Created using Colaboratory
+[33m6e4358f3[m Add `export.py` ONNX inference suggestion (#4146)
+[33md17b45ea[m Update README.md (#4143)
+[33mefe60b56[m Refactor train.py and val.py `loggers` (#4137)
+[33m63dd65e7[m Update train.py (#4136)
+[33m264be1a6[m Rename `opset_version` to `opset` (#4135)
+[33m2e538443[m ONNX inference update (#4073)
+[33m39ef6c7a[m Update README.md (#4134)
+[33m4495e000[m Fix indentation in `log_training_progress()` (#4126)
+[33m4bad9147[m Update resume.py (#4115)
+[33m2c073cd2[m Add train.py ``--img-size` floor (#4099)
+[33m3bef77f5[m Addition refactor `export.py` (#4089)
+[33m442a7abd[m Refactor `export.py` (#4080)
+[33m0cc7c587[m W&B: fix refactor bugs (#4069)
+[33m7fdcc77b[m Albumentations >= 1.0.3 (#4068)
+[33mee76a68f[m Created using Colaboratory
+[33mc8a98cb7[m Missing `nc` and `names` handling in check_dataset() (#4066)
+[33mb1be6850[m Module `super().__init__()` (#4065)
+[33mf7d85620[m `val.py` refactor (#4053)
+[33m9dd33fd2[m AutoShape PosixPath support (#4047)
+[33mdd62e2d0[m Update README.md (#4041)
+[33m0067d957[m Update greetings.yml (#4037)
+[33m951922c7[m Add `--sync-bn` known issue (#4032)
+[33mb7e985e3[m Update greetings.yml (#4024)
+[33m62409eea[m W&B sweeps support (#3938)
+[33m720aaa65[m Rename `test.py` to `val.py` (#4000)
+[33m8ee9fd15[m Update README.md (#3996)
+[33md204a618[m Alert (no detections) (#3984)
+[33mb3dabdcc[m Update `probability` to `p` (#3980)
+[33m41fdf9fa[m Created using Colaboratory
+[33m647223a7[m `Ensemble()` visualize fix (#3973)
+[33ma544d59f[m Update requirements.txt `albumentations>=1.0.2` (#3972)
+[33m90e60b40[m Update `np.random.random()` to `random.random()` (#3967)
+[33m8298ce5e[m Update `albumentations>=1.0.2` (#3966)
+[33m80299a57[m Numerical stability fix for Albumentations (#3958)
+[33m443af8b2[m Cache v0.4 update (#3954)
+[33ma26e7de2[m Update augmentations.py (#3948)
+[33m248504cf[m Feature visualization improvements 32 (#3947)
+[33mdabad579[m Created using Colaboratory
+[33me7888af9[m Fix inconsistent NMS IoU value for COCO (#3934)
+[33m8c6f9e15[m Update `dataset_stats()` for zipped datasets (#3926)
+[33m850970e0[m `feature_visualization()` CUDA fix (#3925)
+[33m588094eb[m Update `setattr()` default for Hub PIL images (#3923)
+[33m411842e0[m Fix `torch.hub.list('ultralytics/yolov5')` pathlib bug (#3921)
+[33m87b094bc[m Feature visualization update (#3920)
+[33m61047a2b[m Save PyTorch Hub models to `/root/hub/cache/dir` (#3904)
+[33m33202b7f[m YOLOv5 + Albumentations integration (#3882)
+[33m6a3ee7cf[m Hub models `map_location=device` (#3894)
+[33m8930e22c[m Evolution commented `hyp['anchors']` fix (#3887)
+[33m3c3f8fbd[m Improved BGR2RGB speeds (#3880)
+[33m9e8fb9fd[m Create `utils/augmentations.py` (#3877)
+[33m81b31824[m Models `*.yaml` reformat (#3875)
+[33mbd88e7f4[m Created using Colaboratory
+[33m9d86b54e[m Add multi-stream saving feature (#3864)
+[33md3e9d698[m `--evolve 300` generations CLI argument (#3863)
+[33m831773f5[m Add EXIF rotation to YOLOv5 Hub inference (#3852)
+[33m4717a3b0[m Created using Colaboratory
+[33mb6863385[m Created using Colaboratory
+[33mc6c88dc6[m Copy-Paste augmentation for YOLOv5 (#3845)
+[33m25d1f293[m Plot `AutoShape()` detections in ascending order (#3843)
+[33m7d6af696[m Fix `LoadStreams()` dataloader frame skip issue (#3833)
+[33m57c5d02b[m Concise `TransformerBlock()` (#3821)
+[33m5ea771d9[m Move IoU functions to metrics.py (#3820)
+[33m3213d871[m Fix for `dataset_stats()` with updated data.yaml (#3819)
+[33m02719dde[m Update `feature_visualization()` (#3807)
+[33m20d45aa4[m Add feature map visualization (#3804)
+[33m3974d725[m Fix warmup `accumulate` (#3722)
+[33m5e976a27[m Fix competition link (#3799)
+[33m47543f97[m FROM nvcr.io/nvidia/pytorch:21.05-py3 (#3794)
+[33m5e6886c8[m Update Dockerfile (#3792)
+[33m96c87f17[m nvcr.io/nvidia/pytorch:21.06-py3 (#3791)
+[33m07166ba3[m Update Usage examples (#3790)
+[33m92d49fde[m Update seeds for single-GPU reproducibility (#3789)
+[33m8e7f2850[m Fix datasets for aws and get_coco.sh (#3788)
+[33mbd581b33[m Create hyp.scratch-p6.yaml (#3787)
+[33m8035b616[m Update objectness IoU sort (#3786)
+[33m157aa2f8[m Objectness IoU Sort (#3610)
+[33m9dc5d35f[m Update README.md fix banner width (#3785)
+[33mf8994171[m NGA xView 2018 Dataset Auto-Download (#3775)
+[33mffb6e110[m W&B: Update Tables API and comply with new dataset_check (#3772)
+[33m09246a5a[m fix/incorrect_fitness_import (#3770)
+[33mf2d97ebb[m Remove DDP MultiHeadAttention fix (#3768)
+[33m37495731[m Add `xyxy2xywhn()` (#3765)
+[33m03281f8c[m COCO annotations JSON fix (#3764)
+[33mf79d7479[m Add optional dataset.yaml `path` attribute (#3753)
+[33m417a2f42[m Edit comment (#3759)
+[33mae4261c7[m Force non-zero hyp evolution weights `w` (#3748)
+[33mfdc22398[m Create `data/hyps` directory (#3747)
+[33m63060910[m Update `check_datasets()` for dynamic unzip path (#3732)
+[33m9ac7d388[m Backwards compatible cache version checks (#3730)
+[33m0e2d0d54[m Fix typo (#3729)
+[33mb83e1a4a[m Fix `img2label_paths()` order (#3720)
+[33m1f69d125[m Update 4 main ops for paths and .run() (#3715)
+[33m75c0ff43[m [x]W&B: Don't resume transfer learning runs (#3604)
+[33me8810a53[m Update DDP backend `if dist.is_nccl_available()` (#3705)
+[33mfbf41e09[m Add `train.run()` method (#3700)
+[33mc1af67dc[m Add torch DP warning (#3698)
+[33mb3e2f4e0[m Eliminate `total_batch_size` variable (#3697)
+[33mfad27c00[m Update DDP for `torch.distributed.run` with `gloo` backend (#3680)
+[33m5bab9a28[m Reformat (#3694)
+[33mbfb2276b[m Slightly modify CLI execution (#3687)
+[33mbf209f6f[m Skip HSV augmentation when hyperparameters are [0, 0, 0] (#3686)
+[33m814806c6[m Update cache check (#3691)
+[33m463628a4[m Update README.md (#3684)
+[33m27297614[m EMA changes for pre-model's batch_size (#3681)
+[33mf527704c[m Cache v0.3: improved corrupt image/label reporting (#3676)
+[33m2296f154[m Update `WORLD_SIZE` and `RANK` retrieval (#3670)
+[33m045d5d86[m Update TensorBoard (#3669)
+[33mfa201f96[m Update `train(hyp, *args)` to accept `hyp` file or dict (#3668)
+[33m6d6e2ca6[m Update train.py (#3667)
+[33mac348345[m Update download_weights.sh comment (#3662)
+[33m2754adad[m Remove `/weights` directory (#3659)
+[33m9b6dba62[m Update `dataset_stats()` to list of dicts (#3657)
+[33mdf7706d8[m Update README.md (#3650)
+[33mfa29125f[m `is_coco` list fix (#3646)
+[33m6187edcb[m Update CONTRIBUTING.md (#3647)
+[33m3ce0db89[m Update CONTRIBUTING.md (#3645)
+[33md808855f[m Assert non-premature end of JPEG images (#3638)
+[33mbb79e13d[m RUN pip install --no-cache -U torch torchvision (#3637)
+[33m6c0e1d9f[m Update `verify_image_label()` (#3635)
+[33m65f81bfe[m Add `**/*.torchscript.pt` (#3634)
+[33mde56813b[m FROM nvcr.io/nvidia/pytorch:21.05-py3 (#3633)
+[33m30e4c4f0[m Update README.md (#3624)
+[33m7d3686a6[m Update `check_file()` (#3622)
+[33m4c5d9bff[m Fix incorrect end epoch comment (#3612)
+[33mdaab682b[m Suppress wandb images size mismatch warning (#3611)
+[33m239a11c1[m Download COCO and VOC by default (#3608)
+[33m6062319e[m Update datasets.py (#3591)
+[33mf8adee15[m merge develop
+[33m31336075[m Simplify README.md (#3530)
+[33m88b19452[m Delete __init__.py (#3596)
+[33m7a565f13[m Update `dataset_stats()` (#3593)
+[33m53d4fc2e[m W&B: Allow changed in config variable #3588
+[33m4984cf54[m train.py GPU memory fix (#3590)
+[33me8c52374[m ConfusionMatrix `normalize=True` fix (#3587)
+[33mec2da4a8[m Add ConfusionMatrix `normalize=True` flag (#3586)
+[33m46e1fdfb[m Update stale.yml (#3585)
+[33m5c32bd30[m Created using Colaboratory
+[33m53ed872c[m Update export.py, yolo.py `sys.path.append()` (#3579)
+[33m095197bd[m Ignore Seaborn plot warnings (#3576)
+[33m4695ca83[m Refactoring cleanup (#3565)
+[33m0e5cfdbe[m Refactor models/export.py arguments (#3564)
+[33m66cf5c28[m Refactor detect.py arguments (#3559)
+[33ma9553c04[m Refactor test.py arguments (#3558)
+[33mc6deb73a[m Bump pip from 18.1 to 19.2 in /utils/google_app_engine (#3561)
+[33m4ef92618[m Remove redundant speed/study `half` argument (#3557)
+[33m5948f20a[m Update test.py profiling (#3555)
+[33m8b5086c2[m Multi-GPU default to single device 0 (#3554)
+[33m63157d21[m Remove `is_coco` argument from `test()` (#3553)
+[33m958ab92d[m Remove `opt` from `create_dataloader()`` (#3552)
+[33m0cfc5b2c[m Update README.md (#3550)
+[33mf8ec71e1[m Update `check_python(minimum=3.6.2)` (#3548)
+[33mef0b5c9d[m On-demand `pycocotools` pip install (#3547)
+[33m1b5edb6f[m Update `dataset_stats()` for HUB (#3536)
+[33mb6fdd2e5[m Create `dataset_stats()` for HUB
+[33mac8691e2[m Created using Colaboratory
+[33m78cf4885[m Created using Colaboratory
+[33mc6b51f41[m Update FP16 `--half` argument for test.py and detect.py (#3532)
+[33m8d52c1c5[m Update datasets.py (#3531)
+[33med651873[m Merge branch 'develop'
+[33m28bff22d[m Use multi-threading in cache_labels (#3505)
+[33mf3c3d2ce[m Merge `develop` branch into `master` (#3518)
+[33mc058a61e[m Update greetings.yml
+[33mabb2a96e[m Update README.md (#3512)
+[33md986145b[m Reduce test.py results spacing (#3511)
+[33meede7dc4[m Update tutorial.ipynb (#3510)
+[33m8d1ddc93[m Earlier `assert` for cpu and half option (#3508)
+[33m3f03acb3[m check_requirements() exclude `opencv-python` (#3507)
+[33m90b7895d[m check_requirements() exclude `opencv-python` (#3495)
+[33ma1c3572b[m Explicit `model.eval()` call `if opt.train=False` (#3475)
+[33mcf4f95bc[m Stale `github.actor` bug fix (#3483)
+[33m3597d280[m Update stale.yml HUB URL (#3468)
+[33m739451da[m Add additional links/resources to stale.yml message (#3467)
+[33mb31229ae[m Revert FP16 `test.py` and `detect.py` inference to FP32 default (#3423)
+[33m044daafd[m Add `output_names` argument for ONNX export with dynamic axes (#3456)
+[33m317f2ccc[m Improved `check_requirements()` offline-handling (#3466)
+[33m563ea947[m Add `check_git_status()` 5 second timeout (#3464)
+[33mc37f072b[m Faster HSV augmentation (#3462)
+[33md40481ac[m Add `timeout()` class (#3460)
+[33m8e3b4a0b[m Update MixUp augmentation `alpha=beta=32.0` (#3455)
+[33m4aa29591[m Suppress jit trace warning + graph once (#3454)
+[33maf2bc3a1[m Add FLOPs title to table (#3453)
+[33mf8651c38[m Parse URL authentication (#3424)
+[33m3cb9ad4f[m Update FLOPs description (#3422)
+[33mfdbe527d[m Revert "`cv2.imread(img, -1)` for IMREAD_UNCHANGED (#3379)" (#3395)
+[33md833ab3d[m Create `is_pip()` function (#3391)
+[33m4b52e19a[m COCO evolution fix (#3388)
+[33m21a9607e[m `cv2.imread(img, -1)` for IMREAD_UNCHANGED (#3379)
+[33m57f773b0[m Update tutorial.ipynb (#3368)
+[33mba6f3f97[m Enable direct `--weights URL` definition (#3373)
+[33mb78e30dd[m Merge remote-tracking branch 'origin/develop' into develop
+[33m3fea0683[m update ci-testing.yml (#3322)
+[33mbb131238[m update ci-testing.yml (#3322)
+[33m4d4a2b05[m Ignore blank lines in `*.txt` labels (#3366)
+[33mef4d5381[m  ONNX export in .train() mode fix (#3362)
+[33m2435bfe8[m Add URL download to check_file() (#3330)
+[33mc6b5bfca[m Updated cache v0.2 with `hashlib` (#3350)
+[33m1f8d716e[m yolo.py header (#3347)
+[33maad99b63[m TensorBoard DP/DDP graph fix (#3325)
+[33m407dc500[m Update README.md (#3320)
+[33m61ea23c3[m Implement `@torch.no_grad()` decorator (#3312)
+[33m73a92dc1[m Explicit `git clone` master (#3311)
+[33m9f3a388c[m Improved check_requirements() robustness (#3298)
+[33mee24ae11[m Comment Cython (#3297)
+[33ma039b779[m PyTorch Hub `crops = results.crop()` return values (#3282)
+[33m0e2f2cbb[m Update LoadStreams init fallbacks (#3295)
+[33m19100ba0[m Improves docs and handling of entities and resuming by WandbLogger (#3264)
+[33mdd7f0b7e[m Fix TypeError: 'PosixPath' object is not iterable (#3285)
+[33m683cefea[m YouTube stream ending fix (#3277)
+[33mf3402353[m check `batch_size % utilized_device_count` (#3276)
+[33m10d56d78[m Assert `--image-weights` not combined with DDP (#3275)
+[33m7b36e38c[m Check CoreML models.train() mode (#3262)
+[33m7b863a34[m Add Cython (#3217)
+[33m7b0eb952[m `plot_one_box()` default `color=(128, 128, 128)` (#3240)
+[33mb7cd1f54[m TensorBoard add_graph() fix (#3236)
+[33m3f74cd9e[m Parameterize max_det + inference default at 1000 (#3215)
+[33m13a1c726[m Update datasets.py (#3216)
+[33mffb47ffb[m Silent Patches Bug Fix (#3214)
+[33m36b0a9e7[m Add CAP_PROP_FRAME_COUNT for YouTube sources (#3193)
+[33mae53f50a[m Plot labels histogram colors (#3192)
+[33mb133baa3[m Add `device` argument to PyTorch Hub models (#3104)
+[33m9ab561db[m Parameterize ONNX `--opset-version` (#3154)
+[33mbe86c21c[m rename class autoShape -> AutoShape (#3173)
+[33m17b0f715[m SKU-110K CVPR2019 Dataset Auto-Download (#3167)
+[33m06372b14[m Scope all hubconf.py imports for torch.hub.list() (#3145)
+[33m19352669[m Scope imports for torch.hub.list() improvement (#3144)
+[33mb0986007[m Update requirements.txt `onnx>=1.9.0` (#3143)
+[33mf12cef85[m TorchScript, ONNX, CoreML Export tutorial title (#3142)
+[33md9b4e6b7[m Add `--include torchscript onnx coreml` argument (#3137)
+[33mbd6f6a78[m Add yolov5/__init__.py (#3127)
+[33m7918eed0[m Update https://ultralytics.com/images/zidane.jpg (#3140)
+[33mc1c7eb02[m Update JSON response (#3139)
+[33m52c05707[m Update Colors() (#3046)
+[33mabfcf9eb[m Replace print() with logging.info() in trainloader (#3103)
+[33m25f8ab83[m detect.py streaming source `--save-crop` bug fix (#3102)
+[33md6a71ae5[m Update GlobalWheat2020.yaml test: # 1276 images (#3101)
+[33m60fe5444[m Update train.py (#3099)
+[33m525f4f86[m Add --optimize argument (#3093)
+[33m57b0d3a6[m Add check_python() (#3088)
+[33m91547ede[m Update detect.py (#3087)
+[33m251aeafc[m Update P5 + P6 model ensembling (#3082)
+[33md2a17289[m Explicitly convert artifact path to posix_path (#3067)
+[33me97d129d[m Update export.py with --train mode argument (#3066)
+[33mf2de1ad2[m Comment fix (#3058)
+[33m3ef3a95c[m Do not optimize CoreML TorchScript model (#3055)
+[33mb8be76f9[m Add get_coco128.sh for downloading the coco128 dataset (#3047)
+[33mb18ca31f[m use check_file for --data (#3035)
+[33m85b6fdda[m FROM nvcr.io/nvidia/pytorch:21.03-py3
+[33m4c7d686d[m FROM nvcr.io/nvidia/pytorch:21.04-py3 (#3030)
+[33m8cab907f[m download() ThreadPool update (#3027)
+[33m5189b3ad[m Objects365 Update
+[33mb292837e[m Fix ONNX export using --grid --simplify --dynamic simultaneously (#2982)
+[33m41cc7cae[m Add NMS threshold checks (#3020)
+[33mfcd57028[m Add is_colab() function (#3018)
+[33me2a80c6c[m Add support for FP16 (half) to export.py (#3010)
+[33m31ee54c2[m Hubconf.py bug fix (#3007)
+[33m7c89c829[m cleanup
+[33mc1a44ed9[m Update hubconf.py for unified loading (#3005)
+[33m37eaffec[m Curl update (#3004)
+[33m4d7bca76[m Add unzip flag to download() (#3002)
+[33mf55730ee[m Objects365 bug fix
+[33m54652fe3[m Objects365 update
+[33m801b4698[m Improve performance of dataset Logger (#2943)
+[33md08575ee[m PyTorch Hub load directly when possible (#2986)
+[33m9b91db6d[m Created using Colaboratory
+[33m41f5cc56[m YOLOv5 AWS Inferentia Inplace compatibility updates (#2953)
+[33m955eea8b[m Make cache saving optional (#2977)
+[33ma833ee2a[m Update check_requirements() exclude list (#2974)
+[33mdbce1bc5[m Objects365 Dataset (#2932)
+[33m33712d6d[m Global Wheat Detection 2020 Dataset Auto-Download (#2968)
+[33m2c7c075f[m Update restapi.py (#2967)
+[33m57812df6[m New Colors() class (#2963)
+[33m4200674a[m Add yolov5/ to sys.path() for *.py subdir exec (#2949)
+[33m48904993[m Improved yolo.py profiling (#2940)
+[33m6c1290fe[m Update README.md (#2934)
+[33m18499167[m Check_requirements() enclosing apostrophe bug fix (#2929)
+[33m9c7bb5a5[m ACON Activation batch-size 1 bug patch (#2901)
+[33mc0d3f805[m Add verbose option to pytorch hub models (#2926)
+[33m3665c0f5[m test.py native --single-cls (#2928)
+[33maa78069c[m Change default value of hide-conf argument to false (#2925)
+[33meae28a93[m Change default value of hide label argument to False (#2923)
+[33mde19d396[m Update visdrone.yaml (#2921)
+[33m45632b27[m Update download() for tar.gz files (#2919)
+[33m1b1ab4cc[m Add file_size() function (#2911)
+[33m646386ff[m Update export.py for 2 dry runs (#2910)
+[33ma2a514de[m Update export.py (#2909)
+[33m28db2376[m Default optimize_for_mobile() on TorchScript models (#2908)
+[33mf662c185[m Add detect.py --hide-conf --hide-labels --line-thickness options (#2658)
+[33m14d2d2d7[m Update google_utils.py (#2900)
+[33mcdb678f4[m Update yolo.py (#2899)
+[33mb40dd991[m Explicit opt function arguments (#2817)
+[33m264d860f[m ACON activation function (#2893)
+[33m0395e39f[m Uppercase model filenames enabled (#2890)
+[33m78fd0776[m VisDrone2019-DET Dataset Auto-Download (#2882)
+[33md48a34dc[m bug fix: switched rows and cols for correct detections in confusion matrix (#2883)
+[33m5f7d39fe[m Cleanup load_image() (#2871)
+[33mf7bc685c[m Implement yaml.safe_load() (#2876)
+[33mc949fc86[m Detection cropping+saving feature addition for detect.py and PyTorch Hub (#2827)
+[33mc5c647e2[m Update increment_path() to handle file paths (#2867)
+[33m1df8c6c9[m Fix ONNX dynamic axes export support with onnx simplifier, make onnx simplifier optional (#2856)
+[33m238583b7[m Update FUNDING.yml (#2833)
+[33m803f51bc[m Create FUNDING.yml (#2832)
+[33mc15e25c4[m PyTorch Hub cv2 .save() .show() bug fix (#2831)
+[33maff03be3[m YouTube Bug Fix (#2818)
+[33m1f3e482b[m ONNX Simplifier (#2815)
+[33me5d71223[m Update README.md
+[33m14797370[m Flask REST API Example (#2732)
+[33m1487bc84[m Update README.md
+[33m860ca988[m Created using Colaboratory
+[33mcac8a765[m Created using Colaboratory
+[33m2eab46e2[m Update tutorial.ipynb
+[33m6b718e91[m Created using Colaboratory
+[33m54d65160[m Update tutorial.ipynb
+[33m0f395b3e[m YOLOv5 v5.0 Release patch 1 (#2764)
+[33mf5b8f7d5[m[33m ([m[1;33mtag: v5.0[m[33m)[m YOLOv5 v5.0 Release (#2762)
+[33me2b7bc0b[m YouTube Livestream Detection (#2752)
+[33m9029759c[m Created using Colaboratory
+[33m6dd1083b[m Tensorboard model visualization bug fix (#2758)
+[33m0cae7576[m utils/wandb_logging PEP8 reformat (#2755)
+[33mb5de52c4[m torch.cuda.amp bug fix (#2750)
+[33mfca5e2a4[m autocast enable=torch.cuda.is_available() (#2748)
+[33mc03d5903[m Add Hub results.pandas() method (#2725)
+[33mc8c8da60[m Update README with collapsable notes (#2721)
+[33m30674293[m Add support for list-of-directory data format for wandb (#2719)
+[33mec8979f1[m Updated filename attributes for YOLOv5 Hub BytesIO (#2718)
+[33m74276d51[m Updated filename attributes for YOLOv5 Hub results (#2708)
+[33m9ccfa852[m pip install coremltools onnx (#2690)
+[33m17300a4c[m autoShape forward im = np.asarray(im)  # to numpy (#2689)
+[33m2af059c0[m PyTorch Hub model.save() increment as runs/hub/exp (#2684)
+[33m514ebcdf[m Fix: #2674 (#2683)
+[33m1148e2ea[m Add TransformerLayer, TransformerBlock, C3TR modules (#2333)
+[33mb8b86299[m Update README with Tips for Best Results tutorial (#2682)
+[33m877b826e[m Created using Colaboratory
+[33m51cc0962[m Update README.md
+[33m2a28ef37[m Set resume flag to false (#2657)
+[33m1b475c17[m Created using Colaboratory
+[33m9c803f2f[m Add --label-smoothing eps argument to train.py (default 0.0) (#2344)
+[33mfd167997[m add option to disable half precision in test.py (#2507)
+[33m7cdc5165[m Update requirements.txt (#2564)
+[33m1b100cd5[m Created using Colaboratory (#2649)
+[33m866bc7d6[m Speed profiling improvements (#2648)
+[33m1e8ab3f5[m Add tqdm pbar.close() (#2644)
+[33m2bf34f50[m PyTorch Hub amp.autocast() inference (#2641)
+[33mee169834[m PyTorch Hub custom model to CUDA device fix (#2636)
+[33m2e95cf3d[m Improve git_describe() fix 1 (#2635)
+[33m518c0957[m W&B resume ddp from run link fix (#2579)
+[33mdc51e80b[m Fix: evolve with wandb (#2634)
+[33m6e8c5b76[m Improve git_describe() (#2633)
+[33m9b92d3ee[m FROM nvcr.io/nvidia/pytorch:21.03-py3 (#2623)
+[33m2dfe3203[m Remove conflicting nvidia-tensorboard package (#2622)
+[33m005d7a8c[m Update Detections() self.n comment (#2620)
+[33m8f6e4477[m Fix Indentation in test.py (#2614)
+[33ma57f23d1[m Update detections() self.t = tuple() (#2617)
+[33m0ff5aeca[m Create date_modified() (#2616)
+[33m196bf106[m Add '*.mpo' to supported image formats (#2615)
+[33m77415a42[m Update git_describe() for remote dir usage (#2606)
+[33mfca16dc4[m Remove Cython from requirements.txt (#2604)
+[33m3bb41489[m resume.py typo (#2603)
+[33md4456e43[m Update segment2box() comment (#2600)
+[33mad05e37d[m Save webcam results, add --nosave option (#2598)
+[33m16206692[m Supervisely Ecosystem (#2519)
+[33m333ccc5b[m YOLOv5 PyTorch Hub models >> check_requirements() (#2592)
+[33m75feeb79[m YOLOv5 PyTorch Hub models >> check_requirements() (#2591)
+[33m8ace1b1b[m YOLOv5 PyTorch Hub models >> check_requirements() (#2588)
+[33m9f98201d[m W&B DDP fix 2 (#2587)
+[33m2bcc89d7[m YOLOv5 PyTorch Hub models >> check_requirements() (#2577)
+[33me5b0200c[m Update tensorboard>=2.4.1 (#2576)
+[33m2b329b09[m Enhanced check_requirements() with auto-install (#2575)
+[33m1bf93652[m W&B DDP fix (#2574)
+[33m0d891c60[m check_requirements() exclude pycocotools, thop (#2571)
+[33m1c132a1f[m Update Detections() times=None (#2570)
+[33me8fc97aa[m Improved W&B integration  (#2125)
+[33med2c7421[m Created using Colaboratory
+[33m9b11f0c5[m PyTorch Hub models default to CUDA:0 if available (#2472)
+[33m2d41e70e[m Scipy kmeans-robust autoanchor update (#2470)
+[33m38ff499b[m Update autosplit() with annotated_only option (#2466)
+[33m6f718cee[m Created using Colaboratory
+[33m20d879db[m Update tutorial.ipynb
+[33mf813f6dc[m autoShape() speed profiling update (#2460)
+[33m569757ec[m Add autoShape() speed profiling (#2459)
+[33m747c2653[m CVPR 2021 Argoverse-HD autodownload curl (#2455)
+[33m08d4918d[m labels.jpg class names (#2454)
+[33mf4197214[m Update test.py --task train val study (#2453)
+[33mf01f3223[m Integer printout (#2450)
+[33m886f1c03[m DDP after autoanchor reorder (#2421)
+[33md5ca8ca3[m CVPR 2021 Argoverse-HD autodownload fix (#2418)
+[33mc51dfec8[m CVPR 2021 Argoverse-HD dataset autodownload support (#2400)
+[33me8a2b832[m GCP sudo docker userdata.sh (#2393)
+[33m7c2c9573[m AWS wait && echo "All tasks done." (#2391)
+[33mba18528b[m bbox_iou() stability and speed improvements (#2385)
+[33m7a0a81fd[m GPU export options (#2297)
+[33mcd8ed352[m image weights compatible faster random index generator v2 for mosaic augmentation (#2383)
+[33mc64fe219[m ENV HOME=/usr/src/app (#2382)
+[33m692e1f31[m --no-cache notebook (#2381)
+[33m300d518f[m Faster random index generator for mosaic augmentation (#2345)
+[33me931b9da[m Resume with custom anchors fix (#2361)
+[33ma3ecf0fd[m Anchor override (#2350)
+[33mfe6ebb96[m Created using Colaboratory
+[33m2c56ad54[m Confusion matrix background axis swap (#2114)
+[33mab86cec8[m FROM nvcr.io/nvidia/pytorch:21.02-py3 (#2341)
+[33mfab50856[m EMA bug fix 2 (#2330)
+[33mfd968105[m remove TTA 1 pixel offset (#2325)
+[33mc2026a5f[m Update Dockerfile install htop (#2320)
+[33mcd30d838[m Update test.py (#2319)
+[33mdfeec198[m final_epoch EMA bug fix (#2317)
+[33mcbd55da5[m Update yolo.py (#2120)
+[33mefa4946d[m W&B entity support (#2298)
+[33ma82dce7f[m Fix labels being missed when image extension appears twice in filename (#2300)
+[33m71dd2768[m Improved model+EMA checkpointing 2 (#2295)
+[33mec1d8496[m Improved model+EMA checkpointing (#2292)
+[33mca5b10b7[m Update train.py (#2290)
+[33m0070995b[m Amazon AWS EC2 startup and re-startup scripts (#2282)
+[33md5d275b6[m Amazon AWS EC2 startup and re-startup scripts (#2185)
+[33m7a6870b8[m Update README.md
+[33m83dc1b44[m FLOPS min stride 32 (#2276)
+[33mcc79f3a9[m Update Dockerfile with apt install zip (#2274)
+[33m32dd1614[m Update greetings.yml for auto-rebase on PR (#2272)
+[33m95aefea4[m Dynamic ONNX engine generation (#2208)
+[33me27ca0d8[m Update minimum stride to 32 (#2266)
+[33m095d2c11[m Created using Colaboratory
+[33m6f5d6fcd[m Robust objectness loss balancing (#2256)
+[33mc09964c2[m Update inference default to multi_label=False (#2252)
+[33mab2da5ed[m Merge remote-tracking branch 'origin/master'
+[33m47faf950[m reset head
+[33m5f42643a[m Unified hub and detect.py box and labels plotting (#2243)
+[33mdb28ce61[m Improved hubconf.py CI tests (#2251)
+[33m9d873077[m  YOLOv5 Hub URL inference bug fix (#2250)
+[33md2e754b6[m Add isdocker() (#2232)
+[33m5a40ce65[m Update CI badge (#2230)
+[33m26c2e54c[m Add check_imshow() (#2231)
+[33mf8464b4f[m Update yolo.py channel array (#2223)
+[33m7b833e37[m LoadStreams() frame loss bug fix (#2222)
+[33m3ff783c1[m TTA augument boxes one pixel shifted in de-flip ud and lr (#2219)
+[33m3e560e2f[m YOLOv5 PyTorch Hub results.save() method retains filenames (#2194)
+[33m17ac94b7[m Created using Colaboratory
+[33mbdd88e1e[m YOLOv5 Segmentation Dataloader Updates (#2188)
+[33m404749a3[m PyTorch Hub results.save('path/to/dir') (#2179)
+[33ma5d5f926[m Changed socket port and added timeout (#2176)
+[33mc9bda112[m Update utils/datasets.py to support .webp files (#2174)
+[33mace3e02e[m Update requirements.txt (#2173)
+[33mc32b0aff[m Update detect.py (#2167)
+[33ma5359f6c[m Update data-autodownload background tasks (#2154)
+[33m6b634c6b[m Linear LR scheduler option (#2150)
+[33mad839eda[m Update train.py (#2149)
+[33m86897e36[m Update train.py test batch_size (#2148)
+[33me9b3de46[m Unique *.cache filenames fix (#2134)
+[33m4bdc5a39[m LoadImages() pathlib update (#2140)
+[33m73a06699[m Start setup for improved W&B integration (#1948)
+[33m9646ca43[m Update plot_study() (#2112)
+[33mbe9edffd[m Update test.py --task speed and study (#2099)
+[33ma18efc3a[m Add variable-stride inference support (#2091)
+[33maa02b948[m Add Kaggle badge (#2090)
+[33meeb2bbf6[m Add Kaggle badge (#2090)
+[33m170d12e5[m Add Amazon Deep Learning AMI environment (#2085)
+[33m64628d6f[m Update tutorial.ipynb
+[33m6e6f77be[m Add YOLOv5-P6 models (#2083)
+[33m6bfa9c24[m GhostConv update (#2082)
+[33m2acbe969[m W&B epoch logging update (#2073)
+[33m630ec06a[m Update to colors.TABLEAU_COLORS (#2069)
+[33mf639e14e[m Metric-Confidence plots feature addition (#2057)
+[33m2a835c79[m Update run-once lines (#2058)
+[33mf59f8011[m Add 'exclude' tuple to check_requirements() (#2041)
+[33m59c21c7b[m W&B log epoch (#1946)
+[33m08d3119e[m Add histogram equalization fcn (#2049)
+[33md68afedb[m Confusion matrix native image-space fix (#2046)
+[33m8fcbe434[m Check im.format during dataset caching (#2042)
+[33ma41d910c[m data-autodownload background tasks (#2034)
+[33m3551b072[m Docker pyYAML>=5.3.1 fix (#2031)
+[33mc76c6072[m PyYAML==5.4.1 (#2030)
+[33m9a3da79b[m Update requirements.txt (#2021)
+[33m2fc47602[m Update autoshape .print() and .save() (#2022)
+[33m3b7feeaf[m Update general.py check_git_status() fix (#2020)
+[33maac33f87[m Update inference multiple-counting (#2019)
+[33m85b75d60[m Update ci-testing.yml (#2018)
+[33m77fd8322[m Update google_utils.py (#2017)
+[33m8dc68fcb[m Update Dockerfile (#2016)
+[33m1445ab2b[m check_git_status() Windows fix (#2015)
+[33m046c37e4[m verbose on final_epoch (#1997)
+[33md9212140[m Add xywhn2xyxy() (#1983)
+[33m1ca2d26b[m Update Dockerfile (#1982)
+[33mb1cf25dd[m check_git_status() asserts (#1977)
+[33me9941d50[m Update train.py with yaml.SafeLoader (#1972)
+[33m17751b98[m Update autoanchor.py with yaml.SafeLoader (#1971)
+[33m45011695[m Update yolo.py with yaml.SafeLoader (#1970)
+[33m91c30e4e[m Update test.py with yaml.SafeLoader (#1969)
+[33m35400dc7[m Update plots.py with yaml.SafeLoader (#1968)
+[33mb5d851d6[m Security Fix for Arbitrary Code Execution - huntr.dev (#1962)
+[33m18c25889[m Update tutorial.ipynb
+[33m3a42abd1[m Created using Colaboratory
+[33mb26a2f62[m check_git_status() when not exist /workspace (#1966)
+[33me8a41e89[m prevent check_git_status() in docker images (#1951)
+[33mca9babb8[m Add ComputeLoss() class (#1950)
+[33mf4a78e1b[m W&B mosaic log bug fix (#1949)
+[33m03ebe6ea[m Add nn.SiLU inplace in attempt_load() (#1940)
+[33m777032ef[m Daemon thread mosaic plots fix (#1943)
+[33m3a56cac4[m Fix batch-size on resume for multi-gpu (#1942)
+[33mb75c432e[m GitHub API rate limit fallback (#1930)
+[33m051e9e80[m check_git_status() bug fix (#1925)
+[33m509dd51a[m check_git_status() improvements (#1916)
+[33mdd03b20b[m colorstr() updates (#1909)
+[33m1d1c0567[m PyTorch Hub results.render() (#1897)
+[33mffef7712[m Update torch_utils.py (#1895)
+[33m0f11aaf5[m GitHub API rate limit newline (#1894)
+[33md06ad3bc[m GitHub API rate limit fix (#1894)
+[33m6ab58958[m Add colorstr() (#1887)
+[33m3e25f1e9[m auto-verbose if nc <=20 (#1869)
+[33mfda8df7e[m actions/stale@v3 (#1868)
+[33mfea9c9b8[m nn.SiLU() citation correction (#1713)
+[33me77c77f5[m Add check_requirements() (#1853)
+[33m135ec5c5[m W&B ID reset on training completion  (#1852)
+[33m69be8e73[m[33m ([m[1;33mtag: v4.0[m[33m)[m YOLOv5 v4.0 Release (#1837)
+[33m0e341c56[m Create one_cycle() function (#1836)
+[33m7dddb1d9[m Remove unused code (#1830)
+[33m9f5a18bb[m Torch CUDA synchronize update (#1826)
+[33m0b6266f5[m Update yolov3-tiny.yaml (#1823)
+[33mccd1af00[m Create Dependabot config file (#1743)
+[33m7180b22e[m DDP Multi-GPU --resume bug fix (#1810)
+[33m73cf75fa[m Created using Colaboratory
+[33mb096221b[m Created using Colaboratory
+[33m14b0abe2[m autoShape() default for PyTorch Hub models (#1692)
+[33mc0ffcdf9[m Display correct CUDA devices (#1776)
+[33m8a81839c[m Update tutorial.ipynb
+[33m98a46d8e[m Update README.md (#1764)
+[33m720afe68[m FROM nvcr.io/nvidia/pytorch:20.12-py3 (#1763)
+[33m9922c118[m leaf Variable inplace bug fix (#1759)
+[33m3004fb5b[m Automatic m.half() profile on x.half()
+[33m0bd9c486[m Update torch_utils.py
+[33m394d1c89[m Input channel yaml['ch'] addition (#1741)
+[33mab0db8d1[m Fix: Seaborn error due to histplot (#1740)
+[33m685d6013[m Increase plot_labels() speed (#1736)
+[33m49abc722[m Update profile_idetection() (#1727)
+[33md5289b54[m clean_str() function addition (#1674)
+[33m7e161d97[m Single class train update (#1719)
+[33m6bd5e8bc[m nn.SiLU() export support (#1713)
+[33mc923fbff[m W&B artifacts feature addition (#1712)
+[33m1fc9d42a[m NMS --classes 0 bug fix (#1710)
+[33m8bc0027a[m Update loss criteria constructor (#1711)
+[33m79972410[m Update C3 module (#1705)
+[33m7947c86b[m Update COCO train postprocessing (#1702)
+[33m035ac82e[m Fix torch multi-GPU --device error (#1701)
+[33m69ea70cd[m Add idetection_profile() function to plots.py (#1700)
+[33me92245a3[m Simplified PyTorch hub for custom models (#1677)
+[33mf7a923b4[m Simplified PyTorch hub for custom models (#1677)
+[33m87ca35b9[m Simplified PyTorch hub for custom models (#1677)
+[33m54043a9f[m Streaming --save-txt bug fix (#1672)
+[33mbc52ea2d[m Profile() feature addition
+[33mada90e39[m Profile() feature addition (#1673)
+[33m94a7f55c[m FReLU bias=False bug fix (#1666)
+[33mb2bef8f6[m vast.ai compatability updates (#1657)
+[33m2e8e0274[m vast.ai compatability updates (#1657)
+[33mfa8f1fb0[m Simplify autoshape() post-process (#1653)
+[33m84f9bb5d[m Normalized mosaic plotting bug fix (#1647)
+[33m86f42475[m Hybrid auto-labelling support (#1646)
+[33m0bb43953[m Reinstate PR curve sentinel values (#1645)
+[33mb53c8ac1[m Create codeql-analysis.yml (#1644)
+[33m68e6ab66[m Hub device mismatch bug fix (#1619)
+[33m791dadb5[m  Pycocotools best.pt after COCO train (#1616)
+[33md929bb65[m Implement default class names (#1609)
+[33mefa7a915[m Update download_weights.sh with usage example (#1613)
+[33m8918e634[m Increase FLOPS robustness (#1608)
+[33mba48f867[m Add bias to Classify() (#1601)
+[33mf0101475[m Update matplotlib.use('Agg') tight (#1583)
+[33m784feae3[m Update matplotlib svg backend (#1580)
+[33m2c99560a[m Update .gitignore datasets dir (#1577)
+[33m577f298d[m plot_images() scale bug fix (#1566)
+[33mb6ed1104[m Daemon thread plotting (#1561)
+[33m68211f72[m FROM nvcr.io/nvidia/pytorch:20.10-py3 (#1553)
+[33mcff92634[m f.read().strip() (#1551)
+[33m9fa7f9f5[m f.read().strip()
+[33m96a84468[m Update labels_to_image_weights() (#1545)
+[33m97a5227a[m Ignore W&B logging dir wandb/ (#1534)
+[33m5dbf0c96[m FROM nvcr.io/nvidia/pytorch:20.11-py3
+[33mc9798ae0[m Update plot_study_txt() (#1533)
+[33m0f2057ed[m Targets scaling bug fix (#1529)
+[33m2c3efa43[m Mosaic plots bug fix (#1526)
+[33m12499f1c[m --image_weights bug fix (#1524)
+[33m9728e2b8[m --image_weights bug fix (#1524)
+[33me9a0ae6f[m Cache bug fix (#1513)
+[33mb3ceffb5[m Add QFocalLoss() (#1482)
+[33m7d629fde[m Update README.md
+[33md336b31f[m Update README.md
+[33m2026d4c5[m Update caching (#1496)
+[33mbde5d9aa[m Update caching (#1496)
+[33m0822cda7[m Update caching (#1496)
+[33m89c7a5b8[m Update caching (#1496)
+[33m44f42b15[m changed prints to logging in utils/datasets (#1315)
+[33m7aeef2dc[m Prevent PR plotting (#1489)
+[33m0ddf12e1[m Update tutorial.ipynb
+[33mbcac052e[m Creado con Colaboratory
+[33m8c0e7092[m Update README.md
+[33m354109c5[m Autosplit (#1488)
+[33m4798e66f[m Autosplit (#1488)
+[33m0a3ff71a[m Confusion matrix (#1474)
+[33m95fa6533[m Cat apriori to autolabels (#1484)
+[33m201bafc7[m Sync train and test iou_thresh (#1465)
+[33md81bc478[m Creado con Colaboratory
+[33ma70e554f[m Remove redundant downloads mirror (#1461)
+[33m46c43b7b[m Creado con Colaboratory
+[33m394131c2[m Use torchvision.ops.nms (#1460)
+[33m199c9c78[m Detection() device bug fix (#1455)
+[33m05a955a3[m FLOPS computation device bug fix (#1447)
+[33maf8aee76[m Update greetings.yml (#1442)
+[33m225845e7[m Update test.py for IoU in native image-space (#1439)
+[33mdf0e4089[m Merge remote-tracking branch 'origin/master'
+[33m64bce3c8[m Update labels.png with rectangles fix (#1432)
+[33mbd29a1c9[m PosixPath to str webcam bug fix (#1437)
+[33m1542ccad[m Update labels.png with rectangles (#1432)
+[33m9ef4760b[m Rename precision_recall_curve.png bug fix  (#1431)
+[33m412b113a[m W&B logging bug fix (#1399)
+[33m4250f84d[m Update PR curve (#1428)
+[33m8d2d6d23[m Update img2label_paths() (#1414)
+[33m97c6a59d[m PANet anchor order correction (#1420)
+[33m311de008[m PyTorch Hub and autoShape update (#1415)
+[33m2aaaec3c[m PyTorch Hub and autoShape update (#1415)
+[33m7816c0c2[m PyTorch Hub and autoShape update (#1415)
+[33m93fc607f[m PyTorch Hub and autoShape update (#1415)
+[33mf5429260[m PyTorch Hub and autoShape update (#1415)
+[33m92c9b728[m Matplotlib AGG backend (#1413)
+[33m548a98a3[m Recursive directories dataset capability (#1408)
+[33m9c91aeae[m W&B logging add hyperparameters (#1399)
+[33mb7007d03[m Creado con Colaboratory
+[33m9f279023[m Improved FLOPS computation (#1398)
+[33md8f5fcfe[m Improved FLOPS computation (#1398)
+[33m0c26c4e8[m Increase pycocotools robustness (#1396)
+[33m9b0f6e33[m Increase pycocotools robustness (#1396)
+[33mcf581305[m Creado con Colaboratory
+[33mfe341fa4[m Utils reorganization (#1392)
+[33m379396e8[m Yaml constructor posixpath --resume bug fix (#1390)
+[33mc4addd77[m Unified '/project/name' results saving (#1377)
+[33m04081f81[m Trailing --save-txt whitespace bug fix (#1374)
+[33mce3872f8[m W&B evolution bug fix (#1373)
+[33mf6b3c969[m Update tutorial.ipynb
+[33m9cd46427[m Creado con Colaboratory
+[33m104f5418[m Creado con Colaboratory
+[33m7841d7ba[m Update README.md
+[33m6ff0d916[m Update download_weights.sh (#1338)
+[33m27138c2e[m Update download_weights.sh (#1338)
+[33m67bf9a97[m Replace 'ground truth' with 'labels' (#1337)
+[33m1c8464e1[m Use pathlib instead of low-level module (#1329)
+[33m19e24824[m PyTorch version to screen and cleanup (#1325)
+[33m81d32010[m --save-txt store_true fix (#1323)
+[33m177f39e9[m onnx>=1.8.0
+[33m4821d076[m Increment train, test, detect runs/ (#1322)
+[33md3e77781[m imap bug fix
+[33m194f1684[m Multi-threaded image caching
+[33mea7e78cb[m Grid indices overflow bug fix (#1316)
+[33m58f8ba77[m Creado con Colaboratory
+[33mfed5d9cd[m Grid indices overflow bug fix (#1313)
+[33mbd5cfff8[m Creado con Colaboratory
+[33mebe563e7[m Created using Colaboratory
+[33m9ac9ec34[m Created using Colaboratory
+[33m74b34872[m Add Weights & Biases tutorial (#1290)
+[33m15a10609[m autoshape() update for PIL greyscale inputs (#1279)
+[33m187f7c2e[m Change optimizer parameters group method (#1239)
+[33m96fcde40[m W&B feature improvements (#1258)
+[33m2062765e[m auto-download v3.1 models (#1259)
+[33mca290dca[m Weights & Biases (W&B) Feature Addition (#1235)
+[33mc8c5ef36[m[33m ([m[1;33mtag: v3.1[m[33m)[m PyTorch 1.7.0 Compatibility Updates (#1233)
+[33m453acdec[m Update tensorboard logging
+[33m7f164069[m Update hubconf.py (#1210)
+[33md3dad422[m Move generated *.json annotations into runs/test (#1209)
+[33m19c8b2c9[m Adding --save-dir and --save-conf options to test.py (#1182)
+[33m0a52ae16[m README Update (#1207)
+[33m8e9b3d02[m Precision-Recall Curve feature update #1206
+[33med85038c[m Precision-Recall Curve feature update (#1206)
+[33m7fe4a6bc[m FROM nvcr.io/nvidia/pytorch:20.10-py3
+[33m481d46cf[m Improved corruption handling during scan and cache (#999)
+[33md61930e0[m Improved corruption handling during scan and cache (#999)
+[33m0fda95aa[m Update cache out-of-date warning
+[33m83deec13[m Add confidence score to label txt files  (#994)
+[33mf532bc68[m GhostConv() bug fix (#1176)
+[33m9291daa6[m fix padding for rectangular inference (#1165)
+[33m3b57cb56[m Simplified inference (#1153)
+[33mc67e7220[m fix compatibility for hyper config (#1146)
+[33m4d3680c8[m Minor import and spelling updates (#1133)
+[33m4346b13a[m Dataset download bash script updates (#1132)
+[33m00917a62[m update expt name comment and folder parsing for training (#978)
+[33m0ada058f[m Generalized regression criterion renaming (#1120)
+[33m10c85bf4[m FROM nvcr.io/nvidia/pytorch:20.09-py3
+[33md45e349a[m Rearrange export input after checks (#1118)
+[33md87cf7ec[m Update requirements.txt coremltools==4.0
+[33mc2403d78[m fuse() bug fix
+[33m5fac5ad1[m Precision-Recall Curve Feature Addition (#1107)
+[33m9eae82e3[m Update stale.yml exempt-issue-labels bug fix (#1098)
+[33m77940c3f[m Remove ignore for git files (#1099)
+[33md11504ae[m Remove image open on macos (#1086)
+[33m5b8cf247[m venv* ignore update
+[33m124f0e82[m torchvision nms bug fix
+[33m66676eb0[m init_torch_seeds >> init_seeds bug fix
+[33m883924d9[m classifier, export, torch seed updates
+[33mc5d23318[m Fix increment_dir to use run_xxx for logdir (#1058)
+[33m35fe9854[m Update requirements.txt coremltools==4.0b4
+[33m2d2371d2[m Update get_voc.sh data download URLs (#1077)
+[33ma12698f4[m Update ci-testing.yml reflecting sys.path additions (#869)
+[33md55c326d[m export.py folder sys.path addition (#1052)
+[33m7220cee1[m mosaic4 bottom left image fix (#1021)
+[33m702c4fa5[m adding the configuration to deploy yolov5 in in app engine (#964)
+[33mb8f65674[m feat: add rtmp support (#1009)
+[33m4fce0096[m model.add_nms() method
+[33m2f77cf33[m .fuse() additional error checking
+[33m89655a84[m .fuse() gradient introduction bug fix
+[33mc4cb7857[m add NMS to pretrained pytorch hub models
+[33m5a9c5c1d[m add mosaic and warmup to hyperparameters (#931)
+[33mf1c63e27[m add mosaic and warmup to hyperparameters (#931)
+[33m806e75f2[m self.label_files bug fix (#958)
+[33m6062bb7d[m print self.yaml['nc'] override update
+[33ma62a45b2[m prevent testloader caching on --notest
+[33m35dc9355[m remove `nn.Conv2d` in default settings (#949)
+[33mc54e3946[m check_file() assert unique
+[33m720645d9[m LoadImagesAndLabels() /images/ to /labels/ fix (#928)
+[33md49c52ee[m _RepeatSampler outside of InfiniteDataLoader
+[33mbb8872ea[m Dockerfile sudo docker "kill all" bug fix
+[33mcab36f72[m add .git to .dockerignore
+[33m9c0efdde[m glob.glob(recursive=True) search (#917)
+[33mc8e51812[m hyp evolution force-autoanchor fix
+[33mc687d5c1[m reorganize train initialization steps
+[33mbc1fd13a[m gsutil cp hyp evolution bug fix (#876)
+[33m44cdcc7e[m hyp['anchors'] evolution update
+[33mffe9eb42[m remove if platform.system() == 'Darwin' checks
+[33m23a7f29e[m Update hyp.finetune.yaml on 306 VOC generations result
+[33m0a0675da[m Merge remote-tracking branch 'origin/master'
+[33m354a97e4[m Create sotabench.py
+[33md8274d04[m Fix results_file not renaming (#903)
+[33m281d78c1[m Update train.py (#902)
+[33md6817995[m Update export.py
+[33m6f3db5e6[m Remove autoanchor and class checks on resumed training (#889)
+[33mc5969f79[m add support for DWConv fuse operation (#898)
+[33md3f9bf2b[m Update datasets.py
+[33m901243c7[m Fix relative path for VOC download (#880)
+[33m3e04d20c[m Merge remote-tracking branch 'origin/master'
+[33mf06e2d51[m opt.image_weights bug fix (#885)
+[33m1e15aad6[m Add InfiniteDataLoader class (#876)
+[33m69ff781c[m opt.img_weights bug fix (#885)
+[33m987c2268[m seaborn plotting correlogram addition
+[33m08e97a2f[m Update hyperparameters to add lrf, anchors
+[33m9776e709[m torch.ops.torchvision.nms (#860)
+[33m0c01afc3[m Update Dockerfile to upgrade pip
+[33m62e03741[m Update Dockerfile FROM nvcr.io/nvidia/pytorch:20.08-py3
+[33m31d6c389[m Update general.py plot_evolution()
+[33m1e7674d4[m Update export.py --img-size comment
+[33ma21bd068[m Update train.py forward simplification
+[33m455f7b8f[m Update general.py (#823)
+[33m5a7d79fb[m Update general.py bbox_iou() with eps improvements  (#736)
+[33m82ed33a0[m generalize webcam detection with opt.source.isnumeric() (yolov3 #1462)
+[33m09402a21[m torch.from_tensor() bug fix
+[33m4fb8cb35[m Update export.py with v3.0 Hardswish() support (#831)
+[33m4d7f222f[m Update export.py with v3.0 Hardswish() support
+[33m8666bc50[m Create evolve.sh for infinite hyp evolution
+[33ma8751e50[m model.fuse() fix for export.py (#827)
+[33m5f07782f[m Update requirements.txt for coremltools kmeans quantization
+[33m71209a60[m exportable Hardswish() implementation
+[33mfd71fe84[m Update hyp.finetune.yaml
+[33mf7e075fe[m gsutil cp yaml when evolving to GCP bucket
+[33m9dbaa1bb[m Update plot_results()
+[33m83dc540b[m remove ema.ema hasattr(ema, 'module') check
+[33m1309400e[m Update hyp.finetune.yaml on VOC results
+[33mfb05681a[m Update requirements.txt to coremltools==4.0b3
+[33md0f98c00[m Update yolo.py with model_info(verbose=False)
+[33mb9851222[m Merge remote-tracking branch 'origin/master'
+[33mc171e45c[m Update test.py with set() (#806)
+[33mea5e97fb[m FP16 NMS (#814)
+[33mb42e8a53[m optimize imports
+[33m4447f4b9[m --resume to same runs/exp directory (#765)
+[33m5e0b90de[m CIoU nan bug fix (#736)
+[33mfb4fc8cd[m Fix ema attribute error in DDP mode (#775)
+[33mda35727c[m --save-txt bug fix (#763)
+[33mebafd1ea[m single command --resume (#756)
+[33m26c3b11f[m Update torch_utils.py (#751)
+[33m2077d788[m update Dockerfile with libgl1-mesa-glx
+[33mf5da528d[m reformat code
+[33mb35f76e3[m update .dockerignore
+[33mfe80bed6[m Update stale.yml
+[33m7b2b5219[m update requirements.txt
+[33m5991d144[m Update README.md
+[33m66744a0d[m Update utils/google_utils.py (#733)
+[33m06bdd395[m Update README.md
+[33m916d4aad[m v3.0 Release (#725)
+[33m1ddf692b[m[33m ([m[1;33mtag: v3.0[m[33m)[m Update readme to remove apex dependency (#727)
+[33m56c2c344[m Fix list paths (#721)
+[33m0892c44b[m Fix Logging (#719)
+[33ma925f283[m max workers for dataloader (#722)
+[33m7875f4c1[m reverse plotting low to high confidence
+[33md2da5230[m Merge remote-tracking branch 'origin/master'
+[33m9f482cbc[m utils.general comment updates/bug fixes
+[33m1f92422e[m Github release assets model autodownload (#711)
+[33m4949401a[m Fix redundant outputs via Logging in DDP training (#500)
+[33m542833c9[m Filter the None labels (#705)
+[33me71fd0ec[m Model freeze capability (#679)
+[33m9ae86836[m the value should be a list to unpacking (#688)
+[33m8e5c6657[m update train.py remove save_json final_epoch
+[33m41523e2c[m Dataset autodownload feature addition (#685)
+[33m3d8ed0a7[m Fix missing model.stride in DP and DDP mode (#683)
+[33ma0ac5adb[m Single-source training update (#680)
+[33m3c6e2f76[m Single-source training (#680)
+[33md7cfbc47[m Fix unrecognized local rank argument (#676)
+[33m0e207551[m update greetings.yml with pull_request_target (#677)
+[33me742dcf4[m update requirements.txt
+[33m3fcd365b[m Fix curl download on Windows (#669)
+[33mfe5b3f87[m Fix curl download on Windows (#669)
+[33m93684531[m train.py --logdir argparser addition (#660)
+[33m886b9841[m Add Multi-Node support for DDP Training (#504)
+[33m7eaf225d[m zero-target training bug fix (#609)
+[33md0d3dd10[m Update detect.py (#629)
+[33mb8f3b1b3[m Update ci-testing.yml (#637)
+[33m728efa65[m Fix missing imports (#627)
+[33m941cb268[m Merge remote-tracking branch 'origin/master'
+[33m52b62639[m update README.md
+[33m7ecf09d6[m Update README.md, deploy model with tensorrt (#623)
+[33m4ee8adb0[m Merge remote-tracking branch 'origin/master'
+[33mf346da9f[m update activations.py
+[33mf807e7b8[m Update README.md
+[33m937b9db9[m Update README.md
+[33meb99dff9[m import random bug fix (#614)
+[33md5b6416c[m Explicit Imports (#498)
+[33mec7a9261[m AutoAnchor update to display anchors/target
+[33md989bc92[m remove NBSP
+[33m023e3780[m hyperparameter evolution update (#566)
+[33m64e6d199[m hyperparameter evolution update (#566)
+[33mfdbcc8fd[m hyperparameter evolution update (#566)
+[33mf1096b2c[m hyperparameter evolution update (#566)
+[33m305c6a02[m compute_loss() leaf variable update
+[33mc1a2a7a4[m hyperparameter evolution bug fix (#566)
+[33m80747459[m hyperparameter evolution bug fix (#566)
+[33me32abb5f[m hyperparameter evolution bug fix (#566)
+[33m8056fe2d[m hyperparameter evolution bug fix (#566)
+[33m61b5733c[m update requirements.txt
+[33m3e5e4449[m update requirements.txt
+[33m127cbeb3[m hyperparameter expansion to flips, perspective, mixup
+[33m6f08e8bc[m add rebase.yml
+[33m23d2bde0[m leaf variable --single-cls training bug fix (#593)
+[33mbcd452c4[m replace random_affine() with random_perspective()
+[33mbb87276d[m update build_targets() (#589)
+[33m8bf3cff8[m PyTorch 1.6.0 update with native AMP (#573)
+[33m60d5dc02[m PyTorch 1.6.0 update with native AMP (#573)
+[33mc020875b[m PyTorch 1.6.0 update with native AMP (#573)
+[33m48e15be4[m Update --bug-report.md
+[33mc8892672[m Funnel ReLU (FReLU) @staticmethod bug fix (#556)
+[33m131782a2[m Funnel ReLU (FReLU) (#556)
+[33m4b074d9d[m Funnel ReLU (FReLU) (#556)
+[33m5414e530[m update ci-testing.yml with on: cron (#572)
+[33ma91cdd2e[m update stale.yml
+[33m1df494e5[m Merge remote-tracking branch 'origin/master'
+[33m2268f9c4[m update *.yaml output layer comments
+[33m4e2b9ecc[m LR --resume repeat bug fix (#565)
+[33madaf1d8a[m Update models/hub *.yaml files for v2.0 (#546)
+[33m7d78b17a[m Fix utils.py nonzero() warning (#551)
+[33ma209a320[m Fix bug #541 #542 (#545)
+[33m8ad6e537[m Update greetings.yml PR message (#519)
+[33maa1392a0[m Merge remote-tracking branch 'origin/master'
+[33m43a616a9[m PyTorch 1.6.0 compatability updates
+[33m91af0401[m PyTorch 1.6.0 compatibility updates
+[33m7f8471ea[m --notest bug fix (#518)
+[33mfd532d9c[m Update utils.py strip_optimizer() (#509)
+[33mfe094333[m Update utils.py strip_optimizer() (#509)
+[33m0032af29[m Update utils.py strip_optimizer() (#509)
+[33m1d17b9af[m update yolo.py TTA flexibility and extensibility (#506)
+[33m4b5f4806[m Update datasets.py (#494)
+[33m3b394b9e[m Update README.md
+[33m2a149a48[m[33m ([m[1;33mtag: v2.0[m[33m)[m Update README.md
+[33m54e1762e[m Update README.md
+[33m9da56b62[m v2.0 Release (#491)
+[33m5e970d45[m Update train.py (#462)
+[33m999804fe[m Add link to multi-gpu train tutorial (#476)
+[33m3edc38f6[m update train.py gsutil bucket fix (#463)
+[33m77655577[m update train.py gsutil bucket fix (#463)
+[33m4ffd9779[m plotting improvements (#471)
+[33m1e95337f[m Update datasets.py (#454)
+[33mb569ed6d[m pretrained model loading bug fix (#450)
+[33m07a82f4d[m Update ci-testing.yml (#445)
+[33m4102fcc9[m [WIP] Feature/ddp fixed (#401)
+[33mb6fe2e45[m Update requirements.txt
+[33m07493a71[m update train.py class count assertion #424
+[33m912c06a6[m update train.py class count assertion #424
+[33m65857adf[m update train.py ckpt loading
+[33m7b0c9be8[m Merge remote-tracking branch 'origin/master'
+[33mb40852d5[m update test.py
+[33m90e7bfdf[m Update ci-testing.yml
+[33m6c01a5b8[m Merge remote-tracking branch 'origin/master'
+[33ma97c3f94[m update common.py Classify()
+[33m52e47300[m Merge pull request #438 from ultralytics/glenn-jocher-patch-1
+[33m02464bc0[m Update ci-testing.yml
+[33m34cbd7f1[m Update ci-testing.yml
+[33mddb0ec36[m Update ci-testing.yml
+[33md78a79bd[m Update ci-testing.yml
+[33m2efa01db[m Merge pull request #426 from Borda/tests/add-gh-action
+[33m87475c03[m Merge remote-tracking branch 'origin/master'
+[33m5387d474[m update common.py add Classify()
+[33m84a94661[m update hubconf.py
+[33me8ea7723[m revert test module to confuse users...
+[33mef6f5b33[m rename test
+[33m670d4ff2[m Update ci-testing.yml
+[33m4171df33[m Update ci-testing.yml
+[33m69d46fd2[m Merge branch 'master' into tests/add-gh-action
+[33m3e8c89d5[m update requirements.txt
+[33m1e831bd8[m Update eval.py
+[33mdfb5d271[m Update eval.py
+[33mb4faccab[m Apply suggestions from code review
+[33m4500b49f[m paths
+[33mbe55111d[m paths
+[33m01289473[m git attrib
+[33meafe85b1[m drop xOS
+[33m2b8fbdaf[m less xOS
+[33m5c73caa2[m timeout
+[33me8b7b86d[m lower bs
+[33meac0dbc4[m rename
+[33mda6c7cea[m paths
+[33m9a880a45[m rename eval
+[33mdf270ea9[m rename eval
+[33m7d8e2dd4[m parallel
+[33m3e6868d3[m args
+[33mf0d1e099[m weights
+[33m3bf77ca1[m lower batch-size
+[33m613b9d6d[m add badge
+[33m5b46305d[m fix tests
+[33ma79633a8[m requirements
+[33m1a503f3e[m requirements
+[33ma0fa5f5e[m requirements
+[33m94b2bb68[m add GH action tests
+[33m37acbdc0[m update test.py --save-txt
+[33mb8c2da4a[m update test.py --save-txt
+[33m1ce686ed[m update test.py
+[33m6bd92189[m update test.py
+[33mf2843481[m update coco.yaml
+[33maa08b2bd[m test.py --task test updates
+[33mf1678ba8[m update coco.yaml
+[33mb9855f11[m update coco.yaml
+[33m2dd43bc8[m update Dockerfile
+[33m1a7a168c[m Merge remote-tracking branch 'origin/master'
+[33m98f4a5af[m runs/exp increment bug fix #344
+[33m0281c9cd[m Merge remote-tracking branch 'origin/master'
+[33m03489aaa[m comment tb_writer.add_hparams(hyp, {})
+[33ma0405007[m Update README.md
+[33m95ef36bb[m Merge remote-tracking branch 'origin/master'
+[33mbcd727eb[m update README.md
+[33mf796708b[m Merge pull request #408 from seahawks8/patch-1
+[33m7d19f982[m Update requirements.txt
+[33m611ec443[m Update README.md
+[33m1e94bcf3[m Merge pull request #384 from jancio/master
+[33m120d40c0[m Update train.py
+[33m38acc5f3[m Fix img_size naming in hyperparameters logging
+[33ma1c8406a[m EMA and non_blocking=True
+[33m2377e5f6[m FP16 EMA bug fix
+[33m2b189243[m yolo.py bug fix
+[33m02445d17[m improved model.yaml source tracking
+[33mc80b249e[m update Dockerfile
+[33m78c9420e[m --classes bug fix #387
+[33m140d84cc[m comment updates
+[33mea34f848[m Merge remote-tracking branch 'origin/master'
+[33m094079bd[m update detect.py --class argument #387
+[33me5589632[m Log hyperparameters in tensorboard
+[33me169edfc[m Update README.md
+[33m8412d44d[m update datasets.py to add detect.py --source glob_command feature
+[33meae33303[m update datasets.py LoadImages() path improvements and Mixup
+[33m0afbb8d4[m update test.py model.half()
+[33m41ff83a9[m update torch_utils.py to FP16 EMA
+[33m8b38e6f4[m update dataset comments
+[33m1b1681ba[m Created using Colaboratory
+[33m9d7c7784[m Created using Colaboratory
+[33ma5818b28[m expired pytorch hub cache bug fix #365
+[33m87972469[m Merge remote-tracking branch 'origin/master'
+[33m6e3c3b62[m expired pytorch hub cache bug fix #365
+[33m80d5775a[m Update README.md
+[33mf7a6d6c8[m remove https:// prefix from curl commands fix #355
+[33m01a73ec0[m multi-gpu ckpt filesize bug fix #253
+[33ma5867519[m multi-gpu ckpt filesize bug fix #253
+[33m5de4e25d[m update tensorboard metric
+[33m224e9a1d[m Merge remote-tracking branch 'origin/master'
+[33m98fc483a[m train.py results.txt to bucket bug fix
+[33md6f6b33a[m update datasets.py for image size check during caching
+[33m01a67a97[m Merge remote-tracking branch 'origin/master'
+[33md3e786ed[m google_utils.py bug fix #355
+[33m9006b85d[m update export.py torchscript file extension
+[33m41bb70b3[m update create_pretrained()
+[33m1531795f[m avoid git status check in Docker bug fix #342
+[33m1e9cf6a6[m add file sizes to ckpt ops
+[33mc494a111[m Merge remote-tracking branch 'origin/master'
+[33m1c13e67b[m evolution bug fix #346
+[33m17b9d7cd[m Merge pull request #344 from Laughing-q/master
+[33m59beae98[m add if isfile() to get_hash()
+[33m66497700[m --rect test bug fix
+[33m51a161d9[m Update train.py
+[33md40e4781[m --rect test bug patch
+[33m41ab1b23[m Merge pull request #1 from ultralytics/master
+[33m520f5de6[m Label caching foundational re-write #306
+[33mf310ca3b[m Update issue templates
+[33me16e9e43[m new nc=len(names) check
+[33mcb527d3a[m new nc=len(names) check
+[33mdd8e742e[m Merge pull request #334 from lorenzomammana/feature-multiple-datasets-training
+[33mdd33d2ab[m Update datasets.py
+[33m2110f5ee[m update log_dir to runs/exp #107
+[33m603ea0bf[m update log_dir to runs/exp #107
+[33m72d5b58b[m disable LR plot to suppress warning message
+[33m24c5a941[m --resume EMA fix #292
+[33m2b6209a9[m Merge pull request #338 from alexstoken/hyp_save_bugfix
+[33m9d631408[m Move hyp and opt yaml save to top of train()
+[33m13a09fa6[m Update datasets.py
+[33m47bf1730[m Update datasets.py
+[33mf9bab6b1[m Update datasets.py
+[33m54a9e4f8[m Refactor code to reduce duplication
+[33m94342acb[m Handle multiple datasets
+[33mbf6f4156[m hyperparameter printout update
+[33m0fef3f66[m Merge pull request #104 from alexstoken/advanced_logging
+[33mdc5e1839[m Merge branch 'master' into advanced_logging
+[33mabb024de[m Delete new_hyp.yaml
+[33m6b134d93[m Update train.py
+[33m22ab1c29[m Update test.py
+[33mc3d3e6b7[m Update test.py
+[33mcbe39a1d[m Update utils.py
+[33mc654d18f[m Update utils.py
+[33m16f68344[m update train.py and experimental.py
+[33m1b9e28e7[m Update requirements.txt
+[33m31b07b35[m Merge pull request #275 from wanghaoyang0106/master
+[33mcd660929[m Merge pull request #321 from dlawrences/master
+[33m7c4d3cf5[m Merge pull request #1 from dlawrences/dev/coreml_convert_pxscaling
+[33ma9918fbf[m updated coreml conversion to do pixel scaling between 0.0 and 1.0
+[33me8cf24b6[m Initial model ensemble capability #318
+[33me6e7e7f1[m Delete advanced_logging_test.ipynb
+[33m43647514[m Colab example/test of new features
+[33m95f0a56d[m Bug fix to get_latest_run when recent run is named
+[33m52bac22f[m Add in --resume functionality with option to specify path or to get most recent run
+[33m8b6dbb7c[m Add optimizer choice to hyp file
+[33m5ac517b2[m Remove duplicate `verbose` arg in test.py
+[33mf517ba81[m Merge branch 'master' into advanced_logging
+[33m121d90b3[m update fuse_conv_and_bn()
+[33m6b95d6d2[m .to(device) bug fix
+[33ma62333e8[m test.py .fuse() update
+[33ma40f615c[m .half() bug fix
+[33m04bdbe41[m fuse update
+[33m5ba1de0c[m update experimental.py with Ensemble() module
+[33m38f5c1ad[m pruning and sparsity initial commit
+[33m997ba7b3[m import yaml in yolo.py
+[33m8c43a690[m Update README.md
+[33m2541f779[m update detect.py
+[33mb7fe1d06[m Merge pull request #300 from Laughing-q/master
+[33m956511da[m fix LR bug
+[33m762b06de[m Merge remote-tracking branch 'origin/master'
+[33m4e2d2460[m update yolo.py
+[33mbb3c3469[m model.yaml nc inherited from dataset.yaml
+[33m1fdaa498[m update detect.py
+[33m11ba5294[m update get_voc.sh
+[33m659ad748[m update get_voc.sh
+[33mfd0b1cc9[m update voc.yaml
+[33m45abf0c7[m remove verbose tar unzip
+[33m55e48603[m udpate dataset download instructions
+[33m1bc0ef87[m Merge pull request #202 from ChristopherSTAN/master
+[33m72a17469[m Update get_voc.sh
+[33m7df4fceb[m Update voc.yaml
+[33mc0c5fd81[m Update voc.yaml
+[33m9485f0b5[m Merge pull request #296 from NanoCode012/patch-1
+[33mccfa9373[m Update to remove "module" attribute check
+[33mf83521ab[m Fix save error for multi-gpu
+[33m5e2429e6[m Merge remote-tracking branch 'origin/master'
+[33m7bd7b2c0[m update export.py
+[33mce0c58f6[m update compute_loss()
+[33maf41083d[m EMA FP16 fix #279
+[33mf767023c[m offset and balance update
+[33m655895a8[m module updates
+[33mdf224a0d[m EMA bug fix #279
+[33ma9d20eba[m export.py update
+[33m569fbc63[m export.py update
+[33m69c0d2da[m Merge branch 'master' of https://github.com/ultralytics/yolov5
+[33mb57f83d0[m [bug fix] potential problem if img fed to model is in rectangular shape
+[33m3bdea3f6[m strip_optimizer() bug fix #253
+[33m6ca3f35c[m update .dockerignore
+[33md5975137[m Create voc.yaml
+[33m8c3b8292[m Add files via upload
+[33m4503d804[m Delete organize_VOC.py
+[33m0bd619b5[m Delete voc.yml
+[33m389ed1f9[m Delete VOC_split.py
+[33m2bcf3da8[m Delete VOC2012.sh
+[33m570dcf05[m Delete VOC2007.sh
+[33me02a189a[m Merge pull request #245 from yxNONG/patch-2
+[33mf02481c7[m Update torch_utils.py
+[33mfc7c4272[m Update utils.py
+[33m597ed4ce[m Update train.py
+[33m9705c15d[m Update train.py
+[33ma8d17ce7[m Update train.py
+[33m13f69777[m typo fix
+[33m1aa2b679[m Update train.py
+[33m53cdaf6b[m Update utils.py
+[33ma03adb5a[m Merge remote-tracking branch 'origin/master'
+[33m1fca7a7f[m autopad() update in common.py
+[33m5323ad22[m export.py update
+[33ma62a1c2c[m export.py update
+[33mf1d67f41[m update export.py
+[33me74ccb29[m Merge remote-tracking branch 'origin/master'
+[33mb5659d11[m module updates
+[33mdfd63de2[m Merge pull request #255 from edurenye/ignore_torchscript
+[33m1c86c2cb[m Add torchscript files to gitignore
+[33m86784cfd[m --resume bug fix #252
+[33m0a08375a[m Merge remote-tracking branch 'origin/master'
+[33m4e62eb90[m check_img_size() int() update
+[33m5c1c73ec[m Merge remote-tracking branch 'origin/master'
+[33mad4c22cb[m --resume bug fix #187
+[33m2b7a1130[m Merge remote-tracking branch 'origin/master'
+[33ma9dc0c2c[m update check_img_size() for model strides
+[33mb9da3ea4[m Merge remote-tracking branch 'origin/master'
+[33m3b16c865[m assert --epochs
+[33mcdb9bde1[m Unify the check point of single and multi GPU
+[33mbfd51f62[m Merge remote-tracking branch 'origin/master'
+[33m9a9333d2[m add replicate() to datasets.py
+[33m615d6d0c[m FROM nvcr.io/nvidia/pytorch:20.06-py3
+[33me8bf3857[m Merge pull request #223 from ArmyOfRobots/master
+[33mb203c9b7[m update train.py incompatible model message fix #222
+[33m01895f39[m Merge pull request #228 from topiaruss/patch-1
+[33m0d5065d3[m Remove non-ascii that breaks pdb single-stepping
+[33m0bc80e1e[m onnx_export.py bug fix #224
+[33mec8554a3[m FROM nvcr.io/nvidia/pytorch:20.06-py3
+[33m685091a3[m Adding torchscript export
+[33m37e13f88[m update mosaic border
+[33m93a67658[m update mosaic border
+[33me18e6811[m Merge branch 'master' into advanced_logging
+[33m77fb8ee0[m refactor dataloader
+[33m22fb2b0c[m refactor dataloader
+[33m97b5186f[m Merge pull request #206 from ml5ah/utils-fix
+[33m8c5b6220[m Update detect.py
+[33m496ec33a[m Update detect.py
+[33m68f63616[m Fix after suggestion
+[33m256a3e89[m small dataset bug fix #140
+[33md994ed25[m Merge remote-tracking branch 'origin/master'
+[33me670a335[m update test.py for FP16 testing during training
+[33mc910ed39[m Update README.md
+[33m8669f456[m Update README.md
+[33m8f7e11dc[m[33m ([m[1;33mtag: v1.0[m[33m)[m Update README.md
+[33mb2d43078[m Update README.md
+[33mb50fdf16[m model.names multi-GPU bug fix #94
+[33m9a9c4f12[m update yolo.py default --cfg
+[33mde191655[m Fix yaml saving (don't sort keys), reorder --opt keys, bug fix hyp dict accessor
+[33m2d396bea[m Fix bug in --help from percent sign in help string
+[33m227aa735[m updates
+[33me071b8dd[m update models/common.py for Conv() flexible padding
+[33mb8557f87[m add stride to datasets.py
+[33m3b062254[m update utils.create_pretrained()
+[33md18adf8d[m Add files via upload
+[33m0825cb7f[m create models/hub
+[33mb1b36341[m update onnx_export.py #134
+[33m8699c319[m update yolo.py
+[33md1ca6f23[m Delete equip_hyp.yaml
+[33m611aacf1[m Turn opt into dictionary before sending it to yaml
+[33mbc4ef486[m Default optimizer SGD
+[33m7abf202c[m Mode all optimizer settings to 'hyp.yaml', integrate proper momentum with Adam optimizer
+[33m7edbf657[m Fix help message for cfg files
+[33md64ad0fb[m Remove --resume functionality and related checks/logic.
+[33mccf0af18[m Revert coco128.yaml to initial commit
+[33mf9ae460e[m update README.md
+[33mec72eea6[m Merge remote-tracking branch 'origin/master'
+[33m53294f28[m update yolo.py
+[33m6cea1bff[m Update README.md
+[33ma63e1c9b[m study update
+[33m2a550333[m update README.md
+[33mdb898131[m study update
+[33m6c1b87a4[m update google_utils import
+[33m7306dadf[m Update README.md
+[33m3804578b[m Update README.md
+[33m69ff4866[m Update README.md
+[33m364fcfd7[m PANet update
+[33mef58dac9[m update Dockerfile
+[33mbbd12c7c[m detect.py fast bug fix
+[33mfc171e26[m check_anchor_order() update
+[33m1f1917ef[m remove fast, add merge
+[33me572bb08[m Add plot_results save location to log_dir
+[33m24dd150f[m update torch>=1.4
+[33mba340ed7[m Merge pull request #143 from Lornatang/Fix-multi-GPU-training-errors
+[33m024a42f4[m datasets.py vid_formats updated
+[33m5c2cd711[m vid_formats bug fix #146
+[33m899f1d4b[m Fix DDP bug in single process multiple device use cases
+[33m0a09882e[m Update issue templates
+[33mcdf1eac9[m Merge pull request #107 from Lornatang/fix-reference-bugs
+[33m458c4d0e[m Update README.md
+[33m34ec87ec[m Update README.md
+[33md4c6674c[m speeds updated from FP32 to FP16
+[33me249792c[m update onnx_export.py usage
+[33m80b82e8b[m update yolo.py
+[33m245bd1d2[m update README.md
+[33ma3ee0a89[m check_img_size() update
+[33m10145833[m strip_optimizer() default to save FP16 model
+[33mcce95e74[m backbone as FP16, save default to FP32
+[33md9b64c27[m save ckpt in FP16 #119
+[33m9fdb0fba[m AutoAnchor bug fix # 117
+[33mc8152c81[m Syntax fixes
+[33m9b7386f6[m Add save_dir arg to test.test, use arg as location for saving batch jpgs
+[33m945307be[m Add save_dir to plot_lr_scheduler and plot_labels Set save_dir = log_dir in train.py
+[33m3b2b3308[m Move results.txt from weights/ to log_dir
+[33m8b6f5826[m update README.md
+[33m2bfd242f[m Merge remote-tracking branch 'origin/master'
+[33mb7ac446d[m update README.md
+[33made023cf[m Fix hyp file read in and dict update. Add example of hyp yaml
+[33m3263a204[m Fix get_latest_run to search 'search_dir' recursivly
+[33md3429173[m Fix get_latest_run() to search inside 'weights' subfolders
+[33m91de3381[m Merge pull request #112 from imprashr/patch-1
+[33m0071b699[m onnx should be 1.6.0
+[33m23686034[m fix refrence bug
+[33ma557b7d9[m check_img_size() update
+[33m03460941[m AutoAnchor fitness to screen
+[33mef75f731[m AutoAnchor n, imgsz bug fix
+[33m2daa4125[m train with multi-gpu half test bug fix #99
+[33md1e57166[m train with multi-gpu half test bug fix #99
+[33m1dfc2852[m AutoAnchor BPR to 4 significant figures
+[33m8db51c70[m tb_writer bug fix
+[33m4052603e[m AutoAnchor update - improvement check
+[33m5f2eeba2[m remove old print statements
+[33mafe1df38[m dist.destroy_process_group() bug fix
+[33m72d06147[m Multi-GPU disabled in test.py
+[33m333f678b[m add update default hyp dict with provided yaml
+[33ma448c3bc[m add logic for resuming and getting hyp for resume run
+[33mbafbc65e[m AutoAnchor bug fix
+[33m25e51bce[m add util function to get most recent last.pt file added logic in train.py __main__ to handle resuming from a run
+[33m490f1e7b[m add save_dir arg to plot_lr_scheduler, default to current dir. Uncomment plot_lr_scheduler in train() and pass log_dir as save location
+[33m57a0ae33[m AutoAnchor implementation
+[33m4418809c[m change weights dir (wdir) to be unique to each run, under log_dir
+[33md9f446cd[m add save yaml of opt and hyp to tensorboard log_dir in train()
+[33ma85e6d0f[m add parser arg for hyp yaml file
+[33m95c46f72[m Merge pull request #79 from Lornatang/delete-redundant-thrid-party-library
+[33m5a50491f[m check_anchors bug fix
+[33m05b8ee5c[m check_anchors() bug fix #102
+[33m7c6fd4d6[m --verbose bug fix #84
+[33mec81c7b5[m check_anchors() bug fix #90
+[33me1e33992[m ONNX export bug fix #93
+[33m8b26e890[m AutoAnchor bug fix #72
+[33m8fa37240[m kmean_anchors() update
+[33mbdd9fee8[m update fast mode
+[33m1c0b6236[m update fast mode
+[33m8b8b7928[m There is no need to download extra packages, official bring it with you
+[33m0c4b4b88[m Merge remote-tracking branch 'upstream/master'
+[33m09c1b961[m Merge branch 'fix-reference-bugs'
+[33mdb2c3acd[m updated testing settings, rebalanced towards FP16 latency
+[33m915b1481[m default check_git_status() to True
+[33m0b514dac[m FP16 test loss bug fix
+[33ma1748a8d[m test during training default to FP16
+[33mbd3e3891[m update google_utils.py
+[33m76ca367a[m FP16 to FP32 ckpt load
+[33m6fb5ff01[m FP16 to FP32 ckpt load
+[33m14523bb0[m FP16 to FP32 ckpt load
+[33mc5966abb[m glob search bug fix #77
+[33mace56eb5[m Merge pull request #70 from Lornatang/fix-reference-bugs
+[33m54795a4f[m fix  problem
+[33m45a17ea4[m Merge remote-tracking branch 'origin/master'
+[33me7c24e04[m half() fix #66
+[33m65703362[m Merge pull request #65 from Ashing00/master
+[33m62eda5e9[m add "__init__.py" file in <models> folder
+[33m11199495[m switch default inference to FP16 on GPU
+[33m157aff28[m FP16 inference fix
+[33mc6fc4242[m Merge remote-tracking branch 'origin/master'
+[33m260b1729[m FP16 inference update
+[33mb545ee32[m Created using Colaboratory
+[33m629d3701[m pyyaml >= 5.3
+[33m4b0e3745[m Merge pull request #59 from Lijun-Yu/master
+[33m4f6c0cf4[m Update hubconf.py
+[33m0dec8ffd[m path fix for torch hub
+[33m4dd75b36[m pycocotools git install fix
+[33m9bf35e7b[m Merge pull request #56 from channeladam/master
+[33m335c607a[m Update datasets.py
+[33m13745819[m Update requirements.txt
+[33mf47ca208[m Include yolov5x extra large model weights
+[33m34bf936c[m Add more logging for diagnostics
+[33mfaa6aeaa[m Fix pip requirements issues
+[33m93bbf1b8[m best possible recall fix
+[33m31f33100[m assert best possible recall > 0.9 before training
+[33m19e68e8a[m Merge pull request #51 from KPLauritzen/b-ensure-weights-dir-when-training
+[33mc3d4d321[m Ensures weights/ dir exists
+[33m099e6f5e[m --img-size stride-multiple verification
+[33m4ba47b1b[m model.yaml updates
+[33m1e2cb6b4[m ONNX export explicit cpu map_location
+[33mad71d2d5[m update times to end-to-end latency (inference + NMS)
+[33m8f17a96f[m cleanup
+[33m8f175529[m ONNX export update
+[33m3a5c5328[m ONNX, BCEBlurWithLogitsLoss, plot_study updates
+[33m18b4da91[m PyTorch Hub update
+[33mc8f06948[m PyTorch Hub update
+[33ma8147204[m PyTorch Hub updates
+[33m1e25775c[m Merge remote-tracking branch 'origin/master'
+[33m0c7a0a08[m update greetings.yml
+[33mf3daa50a[m Update README.md
+[33m46e3cadf[m Update README.md
+[33ma4ae9a68[m Update README.md
+[33mbb56ed4d[m Merge pull request #35 from pcgeek86/patch-1
+[33mac93e9c8[m Fix Google Drive URI for YOLOv5 weights
+[33m9b62f996[m bug fix #30
+[33mc14368d7[m new CSP model release
+[33m854ccb9a[m _print_weights()
+[33m5bee6866[m model definition update
+[33m715cb08b[m module updates
+[33mff02ae08[m module updates
+[33md187459d[m study changes
+[33m1f698af6[m create_backbone with SourceChangeWarning update
+[33m546f9735[m model fuse
+[33m8fe299f1[m model fuse
+[33mc672bef1[m model fuse
+[33m12b0c046[m model fusion and onnx export
+[33mb810b212[m augmented inference
+[33md5d16044[m updates
+[33mc12023f1[m updates
+[33m5c470d23[m multi-gpu test bug fix #15
+[33m67d5e65c[m profiling update
+[33m2703ac73[m profiling update
+[33m4e32b602[m update
+[33m66d73e4c[m NMS updates
+[33m208493d9[m updates
+[33m948bcdd2[m --classes bug fix #17
+[33m22d60882[m speed-reproducibility fix #17
+[33m55ca5c74[m multi-scale fix #16
+[33m7c2832cd[m assert equal model and dataset classes
+[33m11121e39[m updates
+[33mdbdee3a4[m multi-gpu test bug fix #15
+[33ma2336088[m updates
+[33mba9ab663[m model.names for dataParallel
+[33m0362f103[m updates
+[33m94e67115[m updates
+[33m2a0aff68[m dataset padding mode
+[33meb97b2e4[m NMS fast mode
+[33md97d31ed[m updates
+[33m391492ee[m updates
+[33m17e4926c[m updates
+[33m11b462e2[m remove thop dependency
+[33mee8988b8[m datasets.py self.batch_shapes fix
+[33m7a00a5ef[m onnx_export.py
+[33mdf7988d8[m onnx_export.py
+[33m8cab44e7[m Merge remote-tracking branch 'origin/master'
+[33mf96e8f3e[m updates
+[33mf788a6af[m Update README.md
+[33m76d879e8[m Update README.md
+[33mb10609fe[m updates
+[33m7a61d524[m updates
+[33mcf3ee51b[m updates
+[33mf688b457[m updates
+[33m15007754[m Update greetings.yml
+[33m72eed215[m updates
+[33m5a79b5f6[m updates
+[33m4f44aaf2[m updates
+[33mf129cdda[m updates
+[33m1b973928[m updates
+[33ma88cdd25[m updates
+[33m4f00201a[m updates
+[33m9bb5968a[m updates
+[33m893a9059[m updates
+[33m7960c4c5[m updates
+[33mce369053[m updates
+[33m1e84a23f[m initial commit

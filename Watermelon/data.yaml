@@ -1,0 +1,13 @@
+train: ../Watermelon/train/images
+val: ../Watermelon/valid/images
+test: ../Watermelon/test/images
+
+nc: 1
+names: ['Fruit']
+
+roboflow:
+  workspace: vietnam-fruit-in-lab
+  project: watermelon-n4rrw
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/vietnam-fruit-in-lab/watermelon-n4rrw/dataset/1
