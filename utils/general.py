@@ -17,6 +17,15 @@ import signal
 import sys
 import time
 import urllib
+import urllib.request
+
+# fix: Python 3.10 urllib does not handle HTTP 308 Permanent Redirect
+class _HTTPRedirectHandler308(urllib.request.HTTPRedirectHandler):
+    def http_error_308(self, req, fp, code, msg, headers):
+        return self.http_error_302(req, fp, code, msg, headers)
+
+urllib.request.install_opener(urllib.request.build_opener(_HTTPRedirectHandler308))
+
 from copy import deepcopy
 from datetime import datetime
 from itertools import repeat
