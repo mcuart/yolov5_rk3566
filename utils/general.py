@@ -342,7 +342,6 @@ def check_git_status(repo='ultralytics/yolov5', branch='master'):
         s += f'up to date with {url} ✅'
     LOGGER.info(s)
 
-
 @WorkingDirectory(ROOT)
 def check_git_info(path='.'):
     # YOLOv5 git info check, return {remote, branch, commit}
@@ -350,7 +349,14 @@ def check_git_info(path='.'):
     import git
     try:
         repo = git.Repo(path)
-        remote = repo.remotes.origin.url.replace('.git', '')  # i.e. 'https://github.com/ultralytics/yolov5'
+        try:
+            remote = repo.remote(name='origin').url.replace('.git', '')  # i.e. 'https://github.com/ultralytics/yolov5'
+        except (AttributeError, ValueError, IndexError):
+            # 如果没有名为 origin 的远程仓库，尝试获取第一个远程
+            try:
+                remote = repo.remotes[0].url.replace('.git', '')
+            except (IndexError, AttributeError):
+                remote = None
         commit = repo.head.commit.hexsha  # i.e. '3134699c73af83aac2a481435550b968d5792c0d'
         try:
             branch = repo.active_branch.name  # i.e. 'main'
@@ -359,6 +365,7 @@ def check_git_info(path='.'):
         return {'remote': remote, 'branch': branch, 'commit': commit}
     except git.exc.InvalidGitRepositoryError:  # path is not a git dir
         return {'remote': None, 'branch': None, 'commit': None}
+
 
 
 def check_python(minimum='3.7.0'):
