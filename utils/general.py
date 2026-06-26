@@ -350,21 +350,21 @@ def check_git_info(path='.'):
     try:
         repo = git.Repo(path)
         try:
-            remote = repo.remote(name='origin').url.replace('.git', '')  # i.e. 'https://github.com/ultralytics/yolov5'
-        except (AttributeError, ValueError, IndexError):
-            # 如果没有名为 origin 的远程仓库，尝试获取第一个远程
-            try:
-                remote = repo.remotes[0].url.replace('.git', '')
-            except (IndexError, AttributeError):
-                remote = None
-        commit = repo.head.commit.hexsha  # i.e. '3134699c73af83aac2a481435550b968d5792c0d'
+            remote = repo.remote(name='origin').url.replace('.git', '')
+        except Exception:
+            remote = None
         try:
-            branch = repo.active_branch.name  # i.e. 'main'
-        except TypeError:  # not on any branch
-            branch = None  # i.e. 'detached HEAD' state
+            commit = repo.head.commit.hexsha
+        except Exception:
+            commit = None
+        try:
+            branch = repo.active_branch.name
+        except Exception:
+            branch = None
         return {'remote': remote, 'branch': branch, 'commit': commit}
-    except git.exc.InvalidGitRepositoryError:  # path is not a git dir
+    except Exception:
         return {'remote': None, 'branch': None, 'commit': None}
+
 
 
 
