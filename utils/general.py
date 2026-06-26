@@ -33,10 +33,7 @@ class _HTTPRedirectHandler308(urllib.request.HTTPRedirectHandler):
         # 308 重定向必须保持原始 HTTP 方法不变（如 POST 保持不变）
         return self.parent.open(
             urllib.request.Request(
-                newurl,
-                headers=req.headers,
-                data=req.data,
-                method=method
+                newurl, headers=req.headers, data=req.data, method=method
             ),
             timeout=req.timeout
         )
@@ -76,7 +73,7 @@ DATASETS_DIR = Path(os.getenv('YOLOv5_DATASETS_DIR', ROOT.parent / 'datasets')) 
 AUTOINSTALL = str(os.getenv('YOLOv5_AUTOINSTALL', True)).lower() == 'true'  # global auto-install mode
 VERBOSE = str(os.getenv('YOLOv5_VERBOSE', True)).lower() == 'true'  # global verbose mode
 TQDM_BAR_FORMAT = '{l_bar}{bar:10}| {n_fmt}/{total_fmt} {elapsed}'  # tqdm bar format
-FONT = 'Arial.ttf'  # https://ultralytics.com/assets/Arial.ttf
+FONT = 'Arial.ttf'  # https://gitee.com/mcuart/yolov5_rk3566/raw/master/Arial.ttf
 
 torch.set_printoptions(linewidth=320, precision=5, profile='long')
 np.set_printoptions(linewidth=320, formatter={'float_kind': '{:11.5g}'.format})  # format short g, %precision=5
@@ -321,8 +318,7 @@ def check_online():
     # Check internet connectivity
     import socket
 
-    def run_once():
-        # Check once
+    def run_once():  # Check once
         try:
             socket.create_connection(("1.1.1.1", 443), 5)  # check host accessibility
             return True
@@ -350,7 +346,6 @@ def check_git_status(repo='ultralytics/yolov5', branch='master'):
     s = colorstr('github: ')  # string
     assert Path('.git').exists(), s + 'skipping check (not a git repository)' + msg
     assert check_online(), s + 'skipping check (offline)' + msg
-
     splits = re.split(pattern=r'\s', string=check_output('git remote -v', shell=True).decode())
     matches = [repo in s for s in splits]
     if any(matches):
@@ -367,6 +362,7 @@ def check_git_status(repo='ultralytics/yolov5', branch='master'):
     else:
         s += f'up to date with {url} ✅'
     LOGGER.info(s)
+
 
 @WorkingDirectory(ROOT)
 def check_git_info(path='.'):
@@ -390,8 +386,6 @@ def check_git_info(path='.'):
         return {'remote': remote, 'branch': branch, 'commit': commit}
     except Exception:
         return {'remote': None, 'branch': None, 'commit': None}
-
-
 
 
 def check_python(minimum='3.7.0'):
@@ -523,7 +517,7 @@ def check_font(font=FONT, progress=False):
     font = Path(font)
     file = CONFIG_DIR / font.name
     if not font.exists() and not file.exists():
-        url = f'https://ultralytics.com/assets/{font.name}'
+        url = f'https://gitee.com/mcuart/yolov5_rk3566/raw/master/{font.name}'
         LOGGER.info(f'Downloading {url} to {file}...')
         torch.hub.download_url_to_file(url, str(file), progress=progress)
 
@@ -717,7 +711,7 @@ def one_cycle(y1=0.0, y2=1.0, steps=100):
 
 
 def colorstr(*input):
-    # Colors a string https://en.wikipedia.org/wiki/ANSI_escape_code, i.e.  colorstr('blue', 'hello world')
+    # Colors a string https://en.wikipedia.org/wiki/ANSI_escape_code, i.e. colorstr('blue', 'hello world')
     *args, string = input if len(input) > 1 else ('blue', 'bold', input[0])  # color arguments, string
     colors = {
         'black': '\033[30m',  # basic colors
@@ -753,7 +747,7 @@ def labels_to_class_weights(labels, nc=80):
 
     # Prepend gridpoint count (for uCE training)
     # gpi = ((320 / 32 * np.array([1, 2, 4])) ** 2 * 3).sum()  # gridpoints per image
-    # weights = np.hstack([gpi * len(labels)  - weights.sum() * 9, weights * 9]) ** 0.5  # prepend gridpoints to start
+    # weights = np.hstack([gpi * len(labels) - weights.sum() * 9, weights * 9]) ** 0.5  # prepend gridpoints to start
 
     weights[weights == 0] = 1  # replace empty bins with 1
     weights = 1 / weights  # number of targets per class
@@ -860,7 +854,7 @@ def resample_segments(segments, n=1000):
 def scale_boxes(img1_shape, boxes, img0_shape, ratio_pad=None):
     # Rescale boxes (xyxy) from img1_shape to img0_shape
     if ratio_pad is None:  # calculate from img0_shape
-        gain = min(img1_shape[0] / img0_shape[0], img1_shape[1] / img0_shape[1])  # gain  = old / new
+        gain = min(img1_shape[0] / img0_shape[0], img1_shape[1] / img0_shape[1])  # gain = old / new
         pad = (img1_shape[1] - img0_shape[1] * gain) / 2, (img1_shape[0] - img0_shape[0] * gain) / 2  # wh padding
     else:
         gain = ratio_pad[0][0]
@@ -876,7 +870,7 @@ def scale_boxes(img1_shape, boxes, img0_shape, ratio_pad=None):
 def scale_segments(img1_shape, segments, img0_shape, ratio_pad=None, normalize=False):
     # Rescale coords (xyxy) from img1_shape to img0_shape
     if ratio_pad is None:  # calculate from img0_shape
-        gain = min(img1_shape[0] / img0_shape[0], img1_shape[1] / img0_shape[1])  # gain  = old / new
+        gain = min(img1_shape[0] / img0_shape[0], img1_shape[1] / img0_shape[1])  # gain = old / new
         pad = (img1_shape[1] - img0_shape[1] * gain) / 2, (img1_shape[0] - img0_shape[0] * gain) / 2  # wh padding
     else:
         gain = ratio_pad[0][0]
@@ -926,7 +920,6 @@ def non_max_suppression(
         nm=0,  # number of masks
 ):
     """Non-Maximum Suppression (NMS) on inference results to reject overlapping detections
-
     Returns:
          list of detections, on (n,6) tensor per image [xyxy, conf, cls]
     """
@@ -1073,15 +1066,17 @@ def print_mutation(keys, results, hyp, save_dir, bucket, prefix=colorstr('evolve
         data = data.rename(columns=lambda x: x.strip())  # strip keys
         i = np.argmax(fitness(data.values[:, :4]))  #
         generations = len(data)
-        f.write('# YOLOv5 Hyperparameter Evolution Results\n' + f'# Best generation: {i}\n' +
-                f'# Last generation: {generations - 1}\n' + '# ' + ', '.join(f'{x.strip():>20s}' for x in keys[:7]) +
-                '\n' + '# ' + ', '.join(f'{x:>20.5g}' for x in data.values[i, :7]) + '\n\n')
+        f.write('# YOLOv5 Hyperparameter Evolution Results\n' +
+                f'# Best generation: {i}\n' +
+                f'# Last generation: {generations - 1}\n' +
+                '# ' + ', '.join(f'{x.strip():>20s}' for x in keys[:7]) + '\n' +
+                '# ' + ', '.join(f'{x:>20.5g}' for x in data.values[i, :7]) + '\n\n')
         yaml.safe_dump(data.loc[i][7:].to_dict(), f, sort_keys=False)
 
     # Print to screen
-    LOGGER.info(prefix + f'{generations} generations finished, current result:\n' + prefix +
-                ', '.join(f'{x.strip():>20s}' for x in keys) + '\n' + prefix + ', '.join(f'{x:20.5g}'
-                                                                                         for x in vals) + '\n\n')
+    LOGGER.info(prefix + f'{generations} generations finished, current result:\n' +
+                prefix + ', '.join(f'{x.strip():>20s}' for x in keys) + '\n' +
+                prefix + ', '.join(f'{x:20.5g}' for x in vals) + '\n\n')
 
     if bucket:
         os.system(f'gsutil cp {evolve_csv} {evolve_yaml} gs://{bucket}')  # upload
@@ -1110,7 +1105,6 @@ def apply_classifier(x, model, img, im0):
             for a in d:
                 cutout = im0[i][int(a[1]):int(a[3]), int(a[0]):int(a[2])]
                 im = cv2.resize(cutout, (224, 224))  # BGR
-
                 im = im[:, :, ::-1].transpose(2, 0, 1)  # BGR to RGB, to 3x416x416
                 im = np.ascontiguousarray(im, dtype=np.float32)  # uint8 to float32
                 im /= 255  # 0 - 255 to 0.0 - 1.0
