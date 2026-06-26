@@ -18,11 +18,28 @@ import sys
 import time
 import urllib
 import urllib.request
+import urllib.parse
 
 # fix: Python 3.10 urllib does not handle HTTP 308 Permanent Redirect
 class _HTTPRedirectHandler308(urllib.request.HTTPRedirectHandler):
     def http_error_308(self, req, fp, code, msg, headers):
-        return self.http_error_302(req, fp, code, msg, headers)
+        # 308 Permanent Redirect: 必须保持原始请求方法和请求体不变
+        inf = fp
+        method = req.get_method()
+        newurl = headers.get('Location') or headers.get('location') or headers.get('URI')
+        if newurl is None:
+            return inf
+        newurl = urllib.parse.urljoin(req.full_url, newurl)
+        # 308 重定向必须保持原始 HTTP 方法不变（如 POST 保持不变）
+        return self.parent.open(
+            urllib.request.Request(
+                newurl,
+                headers=req.headers,
+                data=req.data,
+                method=method
+            ),
+            timeout=req.timeout
+        )
 
 urllib.request.install_opener(urllib.request.build_opener(_HTTPRedirectHandler308))
 
